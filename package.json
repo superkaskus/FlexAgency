@@ -1,0 +1,23 @@
+{
+  "name": "flexagency",
+  "version": "1.0.0",
+  "description": "A tailwindcss Website I am just practicing my CSS chops",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superkaskus/FlexAgency.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/superkaskus/FlexAgency/issues"
+  },
+  "homepage": "https://github.com/superkaskus/FlexAgency#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
