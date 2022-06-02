@@ -2,24 +2,24 @@
 
 @layer base {
   h1 {
-    @apply text-6xl font-bold;
+    @apply text-3xl font-bold leading-tight sm:text-5xl sm:leading-tight md:text-6xl md:leading-[4.5rem];
   }
   h2 {
-    @apply text-5xl font-bold;
+    @apply text-2xl font-bold sm:text-4xl md:text-5xl;
   }
 
   h3 {
-    @apply text-4xl font-bold;
+    @apply text-xl font-bold sm:text-3xl md:text-4xl;
   }
 
   h4 {
-    @apply text-2xl font-bold;
+    @apply text-xl font-medium sm:text-xl sm:font-bold md:text-2xl;
   }
   .xl-text {
-    @apply text-xl font-medium;
+    @apply text-xl;
   }
   .lg-text {
-    @apply text-lg font-medium;
+    @apply text-lg;
   }
 }
 
@@ -29,7 +29,7 @@
   /* BUTTON COMPONENTS */
 
   .btn {
-    @apply rounded-lg bg-gray-500 py-3 px-[18px] text-center text-base font-normal normal-case tracking-wide
+    @apply rounded-lg bg-gray-500 py-3 px-5 text-center text-base font-normal normal-case tracking-wide
     text-white transition duration-300 ease-in-out hover:bg-gray-600;
   }
 
