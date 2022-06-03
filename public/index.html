@@ -5,14 +5,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AgencioLanding</title>
+  <title>Flex Agency</title>
   <!-- Google Font Poppins start here -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Google Fonts -->
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
-  <!-- Google font ended -->
+  <!-- Boxicons icons -->
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- Main style.css -->
   <link rel="stylesheet" href="/public/style.css">
 </head>
@@ -28,33 +32,116 @@
       <!-- Nav bar starts here -->
       <header class="flex justify-between items-center py-4 mb-8 md:mb-12 xl:mb-16">
         <!-- logo - start -->
-        <a href="/" class="inline-flex items-center text-black-800 font-bold gap-2.5" aria-label="logo">
-          <svg width="54" height="54" viewBox="0 0 95 94" class="w-6 h-auto text-indigo-500" fill="currentColor"
+        <a href="/" class="#8067FFline-flex items-center text-black-800 font-bold gap-2.5" aria-label="logo">
+          <!-- <svg width="54" height="54" viewBox="0 0 95 94" class="w-6 h-auto text-indigo-500" fill="currentColor"
             xmlns="http://www.w3.org/2000/svg">
             <path d="M96 0V47L48 94H0V47L48 0H96Z" />
-          </svg>
+          </svg> -->
 
+          <svg width="40" height="30" viewBox="0 0 57 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M24.9595 16.0273L15.8625 35.1859L15.7137 35.5015H15.7077C15.7018 35.5141 15.6952 35.52 15.6952 35.5326V35.5386C15.6952 35.5445 15.6952 35.5445 15.6892 35.5511C15.6832 35.5577 15.6767 35.5696 15.6767 35.5756V35.5822L15.6707 35.5882L14.9595 35.0933C14.9561 35.09 14.9516 35.0879 14.9469 35.0873C14.9438 35.0839 14.9396 35.0815 14.935 35.0808V35.0748L8.42046 30.5541L1.7906 25.9521C1.16269 25.5152 0.667288 24.9138 0.358794 24.2138C0.0502977 23.5139 -0.0593617 22.7425 0.0418522 21.9842C0.143066 21.226 0.451243 20.5104 0.932542 19.9158C1.41384 19.3213 2.04965 18.8709 2.77018 18.614L16.0849 13.8769C16.4753 13.7354 16.8796 13.6352 17.2909 13.5781V13.5721C17.3095 13.5656 17.3154 13.5656 17.328 13.5721C17.338 13.5684 17.3484 13.5662 17.3591 13.5656C18.656 13.3786 19.9792 13.5868 21.156 14.1632L24.1987 15.6538L24.3224 15.7136L24.8484 15.967L24.9595 16.0273Z"
+              fill="url(#paint0_linear_2653_13003)" />
+            <g style="mix-blend-mode:multiply" opacity="0.15">
+              <g style="mix-blend-mode:multiply" opacity="0.15">
+                <path
+                  d="M24.9595 16.0274L15.8625 35.186L15.7137 35.5016H15.7077C15.7017 35.5141 15.6951 35.5201 15.6951 35.5326V35.5386C15.6951 35.5446 15.6951 35.5446 15.6892 35.5512C15.6832 35.5577 15.6766 35.5697 15.6766 35.5757V35.5822L15.6706 35.5882L14.9594 35.0934C14.9561 35.0899 14.9516 35.0879 14.9469 35.0874C14.9438 35.0838 14.9396 35.0815 14.9349 35.0808V35.0748L8.42041 30.5541L8.72342 30.2684L24.1963 15.655L24.32 15.7148L24.8459 15.9682L24.9595 16.0274Z"
+                  fill="black" />
+              </g>
+            </g>
+            <g style="mix-blend-mode:multiply" opacity="0.3">
+              <g style="mix-blend-mode:multiply" opacity="0.3">
+                <path
+                  d="M24.9595 16.0274L15.7161 35.5016C15.7216 35.5023 15.7267 35.5052 15.7302 35.5095C15.7338 35.5138 15.7355 35.5194 15.7351 35.5249C15.7347 35.5306 15.7323 35.5358 15.7282 35.5396C15.7241 35.5435 15.7187 35.5456 15.7131 35.5456C15.7075 35.5456 15.7021 35.5435 15.698 35.5396C15.6939 35.5358 15.6914 35.5306 15.691 35.5249C15.6906 35.5194 15.6924 35.5138 15.6959 35.5095C15.6995 35.5052 15.7045 35.5023 15.7101 35.5016C15.8093 35.2482 16.1285 34.4628 16.6251 33.2693C17.2563 31.8032 18.1157 29.6947 19.2106 27.1899C20.3055 24.6851 21.5851 21.7721 22.995 18.6619C23.4343 17.7056 23.8736 16.7135 24.3248 15.7178L24.9595 16.0274Z"
+                  fill="black" />
+              </g>
+            </g>
+            <path
+              d="M55.3367 19.7998C55.3309 19.8071 55.3266 19.8154 55.3241 19.8243C55.3162 19.8421 55.306 19.8588 55.2937 19.8739C55.244 19.9791 55.1885 20.0843 55.1323 20.1829L49.424 30.1274C48.4697 31.7867 47.0949 33.1651 45.4381 34.1237C43.7813 35.0824 41.9011 35.5873 39.987 35.5876H15.6705L15.6765 35.5816V35.5757C15.6765 35.5697 15.6831 35.5631 15.6891 35.5512C15.695 35.5392 15.695 35.5446 15.695 35.5386C15.6965 35.5255 15.7008 35.5129 15.7076 35.5016H15.7136L29.6468 5.72431C30.3261 4.27398 31.3459 3.00929 32.6192 2.0379C33.8926 1.06653 35.3817 0.417236 36.96 0.145315C38.5383 -0.126605 40.1589 -0.0131001 41.6839 0.476165C43.2089 0.965431 44.5931 1.81596 45.7185 2.95535L49.9793 7.27225C49.9956 7.29089 50.0143 7.30733 50.0348 7.32126C50.0366 7.32126 50.0382 7.32197 50.0395 7.32317C50.0407 7.32442 50.0414 7.3261 50.0414 7.32783L50.0474 7.33381L53.9806 11.3166C55.0639 12.4121 55.777 13.8192 56.0202 15.3405C56.2634 16.8619 56.0244 18.4212 55.3367 19.7998Z"
+              fill="url(#paint1_linear_2653_13003)" />
+            <g style="mix-blend-mode:multiply" opacity="0.3">
+              <g style="mix-blend-mode:multiply" opacity="0.3">
+                <path
+                  d="M55.324 19.8243C55.2642 19.948 55.2003 20.0634 55.1322 20.1829L49.4239 30.1274C48.4696 31.7867 47.0948 33.1651 45.438 34.1238C43.7812 35.0824 41.901 35.5873 39.9868 35.5876H23.0975C23.0975 35.5876 23.7287 35.532 24.8308 35.4681C25.9328 35.4041 27.4957 35.3013 29.3819 35.2332C31.2682 35.1531 33.4699 35.085 35.8265 35.0414C37.0015 35.0228 38.2172 34.9923 39.4567 34.9858C40.6474 35.0249 41.8364 34.8661 42.9751 34.516C45.2222 33.8359 47.1781 32.4257 48.5334 30.5087C48.7001 30.2798 48.8424 30.0449 48.9906 29.8094C49.1394 29.5621 49.2894 29.3146 49.4359 29.0737C49.7347 28.5914 50.0234 28.121 50.3078 27.6573C50.8649 26.7363 51.4087 25.8702 51.9161 25.0724C52.9118 23.4706 53.7898 22.1659 54.3833 21.2384C54.6821 20.7746 54.9337 20.422 55.0945 20.1745C55.2128 19.9887 55.2935 19.8739 55.324 19.8243Z"
+                  fill="black" />
+              </g>
+            </g>
+            <g style="mix-blend-mode:screen" opacity="0.4">
+              <g style="mix-blend-mode:screen" opacity="0.4">
+                <path
+                  d="M15.7078 35.5016H15.7138C15.7194 35.5024 15.7244 35.5052 15.728 35.5095C15.7315 35.5139 15.7332 35.5194 15.7329 35.525C15.7325 35.5306 15.73 35.5358 15.7259 35.5397C15.7218 35.5435 15.7164 35.5456 15.7108 35.5456C15.7052 35.5456 15.6998 35.5435 15.6957 35.5397C15.6916 35.5358 15.6891 35.5306 15.6887 35.525C15.6883 35.5194 15.6901 35.5139 15.6937 35.5095C15.6972 35.5052 15.7023 35.5024 15.7078 35.5016Z"
+                  fill="white" />
+              </g>
+            </g>
+            <g style="mix-blend-mode:screen" opacity="0.4">
+              <g style="mix-blend-mode:screen" opacity="0.4">
+                <path
+                  d="M49.9812 7.27047C49.7774 7.09117 49.1523 6.5222 48.2062 5.63763C47.6252 5.09317 46.92 4.43156 46.1102 3.67073C45.9117 3.48546 45.6918 3.2691 45.4916 3.09578C45.2629 2.91051 45.0278 2.71886 44.7863 2.52083C44.547 2.32698 44.295 2.14929 44.0321 1.98892C43.7694 1.80278 43.4891 1.64265 43.1954 1.51079C41.9371 0.867166 40.5511 0.512306 39.1385 0.47205C37.5742 0.435906 36.024 0.775084 34.6177 1.46118C33.1276 2.19302 31.8564 3.30425 30.932 4.68317C30.4687 5.41956 30.0634 6.19085 29.7199 6.99017C29.3422 7.81255 28.9591 8.6415 28.5754 9.46388C27.7984 11.1086 27.0173 12.754 26.2565 14.3743C25.4956 15.9945 24.7163 17.5837 23.9746 19.1239C22.49 22.197 21.0801 25.0545 19.8507 27.4911C18.6321 29.9338 17.5689 31.9503 16.8451 33.3727C16.2474 34.5166 15.8434 35.2649 15.7131 35.4998L29.6464 5.7225C30.3258 4.27219 31.3457 3.00756 32.6192 2.03629C33.8927 1.06501 35.382 0.415861 36.9603 0.144115C38.5387 -0.127632 40.1593 -0.0139274 41.6842 0.475544C43.2092 0.965015 44.5934 1.81576 45.7187 2.95533L49.9812 7.27047Z"
+                  fill="white" />
+              </g>
+            </g>
+            <g style="mix-blend-mode:screen" opacity="0.2">
+              <g style="mix-blend-mode:screen" opacity="0.2">
+                <path
+                  d="M53.2715 18.3649L53.1789 18.4575L53.0486 18.8286C53.0297 18.8736 53.0071 18.917 52.9811 18.9583L47.2788 28.8968C46.6438 29.9991 45.7662 30.9423 44.7124 31.655L34.6072 3.64624C35.8216 2.87388 37.232 2.46608 38.6712 2.47124C39.6568 2.47181 40.6325 2.6684 41.5414 3.04958C42.4502 3.43076 43.2742 3.98892 43.9653 4.69155L47.5716 8.34626V8.38332L48.2207 9.00787C48.2578 9.03895 48.3014 9.08856 48.357 9.13816L52.222 13.0522C52.8985 13.7373 53.3587 14.6062 53.5453 15.5508C53.7319 16.4954 53.6367 17.4739 53.2715 18.3649Z"
+                  fill="white" />
+              </g>
+            </g>
+            <g style="mix-blend-mode:multiply" opacity="0.3">
+              <g style="mix-blend-mode:multiply" opacity="0.3">
+                <path
+                  d="M14.9352 35.0807V35.0748C14.9412 35.0748 14.9412 35.0807 14.9471 35.0873C14.944 35.0838 14.9398 35.0815 14.9352 35.0807Z"
+                  fill="black" />
+              </g>
+            </g>
+            <g style="mix-blend-mode:multiply" opacity="0.3">
+              <g style="mix-blend-mode:multiply" opacity="0.3">
+                <path
+                  d="M16.0847 13.8752C16.4752 13.7336 16.8795 13.6335 17.2908 13.5763C17.2227 13.5949 17.0931 13.6259 16.9138 13.6755C16.505 13.7996 16.1055 13.9523 15.7184 14.1327C14.6857 14.5511 13.2321 15.1906 11.4636 15.8952C9.69516 16.5999 7.62492 17.4187 5.39861 18.2554C4.84159 18.4658 4.27917 18.6738 3.70422 18.8925C3.42571 19.0037 3.11015 19.1089 2.85674 19.22L2.49157 19.3808L2.15151 19.5972C1.4916 20.073 1.00842 20.7545 0.777895 21.5347C0.547368 22.3148 0.582536 23.1495 0.877884 23.9075C0.985247 24.1537 1.11785 24.388 1.27355 24.6068C1.33974 24.7165 1.42012 24.8169 1.51261 24.9056C1.59318 25.0098 1.68453 25.1051 1.78514 25.1901L2.14972 25.4811L2.49636 25.7286C2.74379 25.9079 2.9972 26.0872 3.24463 26.2665C3.7395 26.6251 4.23377 26.9777 4.71608 27.3237C6.15049 28.3565 7.50539 29.3522 8.72402 30.2738C9.15075 30.5828 9.56068 30.8924 9.94857 31.1888C11.4696 32.3333 12.7128 33.3291 13.5908 34.0032C14.3576 34.6008 14.8279 34.9924 14.9331 35.079L8.41855 30.5583L1.78873 25.9563C1.15971 25.5196 0.663353 24.9178 0.354238 24.2173C0.0451245 23.5167 -0.0647531 22.7444 0.0366938 21.9854C0.138141 21.2264 0.446973 20.5101 0.929229 19.9153C1.41148 19.3205 2.04846 18.8702 2.77009 18.614L16.0847 13.8752Z"
+                  fill="black" />
+              </g>
+            </g>
+            <g style="mix-blend-mode:multiply" opacity="0.3">
+              <g style="mix-blend-mode:multiply" opacity="0.3">
+                <path
+                  d="M17.2908 13.5723C17.3093 13.5657 17.3153 13.5657 17.3278 13.5723C17.3157 13.5753 17.3033 13.5773 17.2908 13.5783V13.5723Z"
+                  fill="black" />
+              </g>
+            </g>
+            <defs>
+              <linearGradient id="paint0_linear_2653_13003" x1="4.04784" y1="16.2601" x2="18.6613" y2="27.2053"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#7B61FF" />
+                <stop offset="1" stop-color="#5D3FF8" />
+              </linearGradient>
+              <linearGradient id="paint1_linear_2653_13003" x1="31.7666" y1="35.8012" x2="44.0257" y2="1.46763"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#7B61FF" />
+                <stop offset="1" stop-color="#7B61FF" />
+              </linearGradient>
+            </defs>
+          </svg>
           FlexAgency
         </a>
         <!-- logo - end -->
 
         <!-- navList - start -->
-        <nav class="hidden md:my-5 lg:flex lg:items-center lg:gap-6">
+        <nav class="hidden md:my-5 lg:flex lg:items-center lg:gap-12">
           <a href="#" class="text-indigo-500 ">Home</a>
           <a href="#"
             class="text-gray-600 hover:text-indigo-500  active:text-indigo-700 transition duration-100">About</a>
           <a href="#"
-            class="text-gray-600 hover:text-indigo-500  active:text-indigo-700 transition duration-100">Services<a>
-              <a href="#"
-                class="text-gray-600 hover:text-indigo-500  active:text-indigo-700 transition duration-100">Works<a>
-                  <a href="#"
-                    class="text-gray-600 hover:text-indigo-500  active:text-indigo-700 transition duration-100">Blog<a>
-                      <a href="#"
-                        class="text-gray-600 hover:text-indigo-500  active:text-indigo-700 transition duration-100">FAQs<a>
+            class="text-gray-600 hover:text-indigo-500  active:text-indigo-700 transition duration-100">Services</a>
+          <a href="#"
+            class="text-gray-600 hover:text-indigo-500  active:text-indigo-700 transition duration-100">Works</a>
+          <a href="#"
+            class="text-gray-600 hover:text-indigo-500  active:text-indigo-700 transition duration-100">Blog</a>
+          <a href="#"
+            class="text-gray-600 hover:text-indigo-500  active:text-indigo-700 transition duration-100">FAQs</a>
 
-                          <!-- 
+          <!-- 
                           buttons - start -->
-                          <a href="#" class="hidden lg:inline-block bg-indigo-500 hover:bg-indigo-700 focus-visible:ring 
+          <a href="#" class="hidden lg:inline-block bg-indigo-500 hover:bg-indigo-700 focus-visible:ring 
           ring-indigo-300 text-white active:text-white text-sm md:text-white font-normal
            text-center rounded-md outline-none transition duration-100 px-4 py-2">Contact Us</a>
 
@@ -64,7 +151,7 @@
 
 
         <button type="button"
-          class="inline-flex btn btn-primary btn-sm py-1 px-2 items-center lg:hidden text-sm  gap-2">
+          class="#8067FFline-flex btn btn-primary btn-sm py-1 px-2 items-center lg:hidden text-sm  gap-2">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd"
               d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
@@ -79,7 +166,8 @@
       </header>
 
       <!-- Hero section -->
-      <section class="flex flex-col lg:flex-row justify-between gap-6 sm:gap-10 md:gap-16">
+      <section class="flex flex-col lg:flex-row justify-between gap-6 sm:gap-10 md:gap-16 ">
+
         <!-- content - start -->
         <div class="lg:w-6/12 flex flex-col justify-center text-center md:text-left space-y-4">
 
@@ -91,10 +179,10 @@
             channels.</p>
 
           <div class="flex flex-col sm:flex-row sm:justify-center md:justify-start gap-2.5">
-            <a href="#" class="inline-block btn btn-primary">Start
+            <a href="#" class="#8067FFline-block btn btn-primary">Start
               now</a>
 
-            <a href="#" class="inline-block btn btn-outline-primary">Take
+            <a href="#" class="#8067FFline-block btn btn-outline-primary">Take
               tour</a>
           </div>
         </div>
@@ -102,6 +190,7 @@
 
         <!-- image - start -->
         <div class="lg:w-6/12 h-48 lg:h-auto bg-gray-100 overflow-hidden shadow-lg rounded-lg">
+
           <img src="/public/images/Image.png" loading="lazy" alt="Photo by Fakurian Design"
             class="w-full h-full object-cover object-center" />
         </div>
@@ -114,7 +203,7 @@
   <!-- FEATURED SECTION -->
 
   <div class="bg-white py-6 sm:py-8 md:py-14">
-    <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
+    <div class="max-w-screen-xl px-4 md:px-8 mx-auto wow">
       <!-- text - start -->
       <div class="mb-10 md:mb-16 space-y-2">
         <h3 class="text-center">Our competitive advantage</h3>
@@ -144,6 +233,7 @@
             class="text-indigo-500 hover:text-indigo-600 active:text-indigo-700 font-medium transition duration-100">Learn
             more</a>
         </div>
+
         <!-- feature - end -->
 
         <!-- feature - start -->
@@ -249,11 +339,12 @@
   </div>
 
 
+
   <!-- LOGO CLOUD SECTION -->
 
   <div class="bg-white py-6 sm:py-8 md:py-14">
     <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
-      <h5 class="text-2xl md:text-xl text-center mb-4 md:mb-8">Trusted by the top companies in
+      <h5 class="text-lg md:text-xl md:text-center mb-4 md:mb-8">Trusted by the top companies in
         the industry</h5>
 
       <div class="sm:h-40 grid grid-cols-2 md:grid-cols-4 sm:content-evenly bg-gray-100 rounded-lg gap-6 p-6">
@@ -416,17 +507,713 @@
     </div>
   </div>
 
+  <!-- PORTFOLIO SECTION SECTION -->
+
+  <div class="bg-white py-6 sm:py-8 md:pt-14 md:pb-20">
+    <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
+      <!-- text - start -->
+      <div class="mb-10 md:mb-16 space-y-2">
+        <h3 class="text-left">Some of our most recent projects</h3>
+
+        <p class="max-w-screen-md text-gray-500 md:text-lg text-left">With our integrated CRM, project
+          management, collaboration and invoicing capabilities, you can manage your business in one secure platform.</p>
+      </div>
+      <!-- text - end -->
+      <div class="grid grid-cols-3 md:flex justify-items-start gap-2 mb-6">
+        <button class="btn btn-primary btn-sm">All categories</button>
+        <button class="btn btn-plain-primary btn-sm text-gray-500 ">Branding</button>
+        <button class="btn btn-plain-primary btn-sm text-gray-500 ">Marketing</button>
+        <button class="btn btn-plain-primary btn-sm text-gray-500 ">Design</button>
+        <button class="btn btn-plain-primary btn-sm text-gray-500 ">Development</button>
+        <button class="btn btn-plain-primary btn-sm text-gray-500 ">SEO</button>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <!-- product - start -->
+        <div
+          class="rounded-lg transition shadow-md hover:shadow-xl ease-in-out delay-150 hover:-translate-y-2 hover:scale-20 duration-300">
+          <a href="#">
+            <div class="group h-96 block bg rounded-t-lg overflow-hidden relative">
+              <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600"
+                loading="lazy" alt="Photo by Austin Wade" class="w-full h-full object-cover object-center" />
+
+            </div>
+
+            <div class="flex justify-between items-start gap-2 p-4">
+              <div class="flex flex-col space-y-2">
+                <p class="text-gray-800 lg:text-lg font-bold transition duration-100">Humaan Group
+                  Inc.</p>
+                <div>
+                  <span class="badge-light mr-1">Branding</span> <span class="badge-light mr-1">UX/UI</span>
+                </div>
+
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- product - end -->
+        <!-- product - start -->
+        <div
+          class="rounded-lg transition shadow-md hover:shadow-xl ease-in-out delay-150 hover:-translate-y-2 hover:scale-20 duration-300">
+          <a href="#">
+            <div class="group h-96 block bg rounded-t-lg overflow-hidden relative">
+              <img src="/public/images/unsplash_aH8Ecjs1WQc.png" loading="lazy" alt="Photo by Austin Wade"
+                class="w-full h-full object-cover object-center" />
+
+            </div>
+
+            <div class="flex justify-between items-start gap-2 p-4">
+              <div class="flex flex-col space-y-2">
+                <p class="text-gray-800 lg:text-lg font-bold transition duration-100">Humaan Group
+                  Inc.</p>
+                <div>
+                  <span class="badge-light mr-1">Branding</span> <span class="badge-light mr-1">UX/UI</span>
+                </div>
+
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- product - end -->
+        <!-- product - start -->
+        <div
+          class="rounded-lg transition shadow-md hover:shadow-xl ease-in-out delay-150 hover:-translate-y-2 hover:scale-20 duration-300">
+          <a href="#">
+            <div class="group h-96 block bg rounded-t-lg overflow-hidden relative">
+              <img src="/public/images/unsplash__x335IZXxfc.png" loading="lazy" alt="Photo by Austin Wade"
+                class="w-full h-full object-cover object-center" />
+
+            </div>
+
+            <div class="flex justify-between items-start gap-2 p-4">
+              <div class="flex flex-col space-y-2">
+                <p class="text-gray-800 lg:text-lg font-bold transition duration-100">Humaan Group
+                  Inc.</p>
+                <div>
+                  <span class="badge-light mr-1">Branding</span> <span class="badge-light mr-1">UX/UI</span>
+                </div>
+
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- product - end -->
+        <!-- product - start -->
+        <div
+          class="rounded-lg transition shadow-md hover:shadow-xl ease-in-out delay-150 hover:-translate-y-2 hover:scale-20 duration-300">
+          <a href="#">
+            <div class="group h-96 block bg rounded-t-lg overflow-hidden relative">
+              <img src="/public/images/unsplash_Fq54FqucgCE.png" loading="lazy" alt="Photo by Austin Wade"
+                class="w-full h-full object-cover object-center" />
+
+            </div>
+
+            <div class="flex justify-between items-start gap-2 p-4">
+              <div class="flex flex-col space-y-2">
+                <p class="text-gray-800 lg:text-lg font-bold transition duration-100">Humaan Group
+                  Inc.</p>
+                <div>
+                  <span class="badge-light mr-1">Branding</span> <span class="badge-light mr-1">UX/UI</span>
+                </div>
+
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- product - end -->
+        <!-- product - start -->
+        <div
+          class="rounded-lg transition shadow-md hover:shadow-xl ease-in-out delay-150 hover:-translate-y-2 hover:scale-20 duration-300">
+          <a href="#">
+            <div class="group h-96 block bg rounded-t-lg overflow-hidden relative">
+              <img src="/public/images/unsplash_UzPbvwqvKNE.png" loading="lazy" alt="Photo by Austin Wade"
+                class="w-full h-full object-cover object-center" />
+
+            </div>
+
+            <div class="flex justify-between items-start gap-2 p-4">
+              <div class="flex flex-col space-y-2">
+                <p class="text-gray-800 lg:text-lg font-bold transition duration-100">Humaan Group
+                  Inc.</p>
+                <div>
+                  <span class="badge-light mr-1">Branding</span> <span class="badge-light mr-1">UX/UI</span>
+                </div>
+
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- product - end -->
+        <!-- product - start -->
+        <div
+          class="rounded-lg transition shadow-md hover:shadow-xl ease-in-out delay-150 hover:-translate-y-2 hover:scale-20 duration-300">
+          <a href="#">
+            <div class="group h-96 block bg rounded-t-lg overflow-hidden relative">
+              <img src="/public/images/Rectangle 21.png" loading="lazy" alt="Photo by Austin Wade"
+                class="w-full h-full object-cover object-center" />
+
+            </div>
+
+            <div class="flex justify-between items-start gap-2 p-4">
+              <div class="flex flex-col space-y-2">
+                <p class="text-gray-800 lg:text-lg font-bold transition duration-100">Humaan Group
+                  Inc.</p>
+                <div>
+                  <span class="badge-light mr-1">Branding</span> <span class="badge-light mr-1">UX/UI</span>
+                </div>
+
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- product - end -->
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- TESTIMONIALS SECTION -->
+
+  <div class="py-6 sm:py-8 md:py-14   bg-no-repeat bg-center bg-cover bg-origin-border relative"
+    style=" background-image: url(./images/Pattern\ Light.png);">
+    <div class=" absolute -top-10 right-60 ">
+      <svg width="149" height="91" viewBox="0 0 149 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#clip0_2614_13999)">
+          <path
+            d="M146.25 90.9099C147.708 90.9099 148.89 89.7279 148.89 88.2699C148.89 86.8119 147.708 85.6299 146.25 85.6299C144.792 85.6299 143.61 86.8119 143.61 88.2699C143.61 89.7279 144.792 90.9099 146.25 90.9099Z"
+            fill="#8067FF" />
+          <path
+            d="M122.31 90.9099C123.768 90.9099 124.95 89.7279 124.95 88.2699C124.95 86.8119 123.768 85.6299 122.31 85.6299C120.852 85.6299 119.67 86.8119 119.67 88.2699C119.67 89.7279 120.852 90.9099 122.31 90.9099Z"
+            fill="#8067FF" />
+          <path
+            d="M98.3799 90.9099C98.9045 90.9118 99.4178 90.7581 99.8549 90.4682C100.292 90.1782 100.633 89.7649 100.835 89.2809C101.037 88.7969 101.091 88.2637 100.99 87.749C100.889 87.2343 100.638 86.7612 100.267 86.3896C99.8972 86.018 99.425 85.7646 98.9107 85.6615C98.3964 85.5585 97.863 85.6104 97.3782 85.8106C96.8934 86.0109 96.4789 86.3506 96.1873 86.7866C95.8957 87.2226 95.7399 87.7353 95.7399 88.2598C95.7399 88.9609 96.0178 89.6335 96.5126 90.1301C97.0074 90.6268 97.6789 90.9072 98.3799 90.9099Z"
+            fill="#8067FF" />
+          <path
+            d="M74.45 90.9099C74.9741 90.9099 75.4865 90.7545 75.9223 90.4633C76.3581 90.1721 76.6977 89.7582 76.8983 89.274C77.0988 88.7898 77.1513 88.2569 77.049 87.7429C76.9468 87.2288 76.6944 86.7567 76.3238 86.3861C75.9532 86.0155 75.481 85.763 74.967 85.6608C74.4529 85.5585 73.9201 85.611 73.4359 85.8116C72.9516 86.0122 72.5378 86.3518 72.2466 86.7876C71.9555 87.2234 71.8 87.7357 71.8 88.2598C71.8 88.6078 71.8685 88.9525 72.0016 89.274C72.1348 89.5955 72.33 89.8876 72.5761 90.1337C72.8222 90.3798 73.1143 90.575 73.4359 90.7082C73.7574 90.8414 74.102 90.9099 74.45 90.9099Z"
+            fill="#8067FF" />
+          <path
+            d="M50.51 90.9099C51.968 90.9099 53.15 89.7279 53.15 88.2699C53.15 86.8119 51.968 85.6299 50.51 85.6299C49.052 85.6299 47.87 86.8119 47.87 88.2699C47.87 89.7279 49.052 90.9099 50.51 90.9099Z"
+            fill="#8067FF" />
+          <path
+            d="M27.5903 90.5957C28.9388 90.0413 29.5826 88.4986 29.0281 87.1501C28.4737 85.8016 26.9311 85.158 25.5826 85.7124C24.2341 86.2668 23.5903 87.8094 24.1447 89.1579C24.6992 90.5064 26.2418 91.1502 27.5903 90.5957Z"
+            fill="#8067FF" />
+          <path
+            d="M2.64998 85.6602C2.12502 85.6582 1.61135 85.8122 1.17403 86.1026C0.736712 86.393 0.395495 86.8068 0.193685 87.2915C-0.00812604 87.7761 -0.0614455 88.3097 0.0404863 88.8247C0.142418 89.3397 0.394984 89.8128 0.766194 90.184C1.1374 90.5552 1.61047 90.8078 2.12545 90.9097C2.64043 91.0116 3.17414 90.9583 3.65877 90.7565C4.1434 90.5547 4.55719 90.2135 4.84762 89.7762C5.13804 89.3389 5.29198 88.8252 5.29 88.3002C5.28736 87.6008 5.0084 86.9308 4.51388 86.4363C4.01935 85.9418 3.34934 85.6628 2.64998 85.6602Z"
+            fill="#8067FF" />
+          <path
+            d="M146.25 69.5002C147.708 69.5002 148.89 68.3182 148.89 66.8602C148.89 65.4022 147.708 64.2202 146.25 64.2202C144.792 64.2202 143.61 65.4022 143.61 66.8602C143.61 68.3182 144.792 69.5002 146.25 69.5002Z"
+            fill="#8067FF" />
+          <path
+            d="M122.31 69.5002C123.768 69.5002 124.95 68.3182 124.95 66.8602C124.95 65.4022 123.768 64.2202 122.31 64.2202C120.852 64.2202 119.67 65.4022 119.67 66.8602C119.67 68.3182 120.852 69.5002 122.31 69.5002Z"
+            fill="#8067FF" />
+          <path
+            d="M98.38 69.5002C98.9049 69.5022 99.4187 69.3482 99.856 69.0578C100.293 68.7673 100.635 68.3535 100.836 67.8689C101.038 67.3843 101.092 66.8506 100.99 66.3357C100.888 65.8207 100.635 65.3475 100.264 64.9763C99.8927 64.6051 99.4195 64.3526 98.9045 64.2506C98.3895 64.1487 97.8559 64.202 97.3713 64.4038C96.8867 64.6056 96.4729 64.9469 96.1825 65.3842C95.892 65.8215 95.738 66.3352 95.7399 66.8602C95.7426 67.5595 96.0217 68.2295 96.5162 68.724C97.0107 69.2185 97.6806 69.4976 98.38 69.5002Z"
+            fill="#8067FF" />
+          <path
+            d="M74.45 69.5002C74.9746 69.5002 75.4873 69.3445 75.9233 69.0529C76.3593 68.7612 76.699 68.3468 76.8993 67.862C77.0995 67.3772 77.1514 66.8438 77.0483 66.3295C76.9452 65.8152 76.6919 65.343 76.3203 64.9728C75.9487 64.6026 75.4755 64.351 74.9608 64.2499C74.4461 64.1488 73.913 64.2027 73.4289 64.4048C72.9449 64.6069 72.5318 64.9481 72.2418 65.3852C71.9518 65.8223 71.798 66.3356 71.8 66.8602C71.8 67.2077 71.8686 67.5518 72.0019 67.8728C72.1352 68.1937 72.3305 68.4852 72.5767 68.7305C72.8229 68.9758 73.1151 69.17 73.4366 69.3021C73.7581 69.4342 74.1025 69.5015 74.45 69.5002Z"
+            fill="#8067FF" />
+          <path
+            d="M50.51 69.5002C51.968 69.5002 53.15 68.3182 53.15 66.8602C53.15 65.4022 51.968 64.2202 50.51 64.2202C49.052 64.2202 47.87 65.4022 47.87 66.8602C47.87 68.3182 49.052 69.5002 50.51 69.5002Z"
+            fill="#8067FF" />
+          <path
+            d="M27.5927 69.193C28.9412 68.6385 29.5849 67.0959 29.0305 65.7474C28.476 64.3989 26.9334 63.7551 25.5849 64.3096C24.2364 64.864 23.5927 66.4067 24.1471 67.7552C24.7015 69.1037 26.2442 69.7474 27.5927 69.193Z"
+            fill="#8067FF" />
+          <path
+            d="M2.64998 69.5002C3.17453 69.5002 3.68724 69.3445 4.12325 69.0529C4.55925 68.7612 4.89893 68.3468 5.0992 67.862C5.29948 67.3772 5.35144 66.8438 5.24837 66.3295C5.14531 65.8152 4.89183 65.343 4.52022 64.9728C4.14861 64.6026 3.67555 64.351 3.16085 64.2499C2.64614 64.1488 2.11303 64.2027 1.62899 64.4048C1.14494 64.6069 0.73171 64.9481 0.44173 65.3852C0.15175 65.8223 -0.00202158 66.3356 -4.21631e-05 66.8602C-4.46563e-05 67.2077 0.0685648 67.5518 0.201862 67.8728C0.335159 68.1937 0.530606 68.4852 0.776813 68.7305C1.02302 68.9758 1.31522 69.17 1.63668 69.3021C1.95813 69.4342 2.30245 69.5015 2.64998 69.5002Z"
+            fill="#8067FF" />
+          <path
+            d="M146.25 48.0901C147.708 48.0901 148.89 46.9081 148.89 45.4501C148.89 43.992 147.708 42.8101 146.25 42.8101C144.792 42.8101 143.61 43.992 143.61 45.4501C143.61 46.9081 144.792 48.0901 146.25 48.0901Z"
+            fill="#8067FF" />
+          <path
+            d="M122.31 48.0901C123.768 48.0901 124.95 46.9081 124.95 45.4501C124.95 43.992 123.768 42.8101 122.31 42.8101C120.852 42.8101 119.67 43.992 119.67 45.4501C119.67 46.9081 120.852 48.0901 122.31 48.0901Z"
+            fill="#8067FF" />
+          <path
+            d="M98.3799 48.0998C98.9045 48.1018 99.4178 47.9481 99.8549 47.6581C100.292 47.3681 100.633 46.9549 100.835 46.4708C101.037 45.9868 101.091 45.4537 100.99 44.939C100.889 44.4243 100.638 43.9512 100.267 43.5795C99.8972 43.2079 99.425 42.9545 98.9107 42.8515C98.3964 42.7484 97.863 42.8003 97.3782 43.0006C96.8934 43.2008 96.4789 43.5405 96.1873 43.9765C95.8957 44.4125 95.7399 44.9252 95.7399 45.4498C95.7399 46.1509 96.0178 46.8234 96.5126 47.3201C97.0074 47.8168 97.6789 48.0972 98.3799 48.0998Z"
+            fill="#8067FF" />
+          <path
+            d="M74.45 48.0998C74.9741 48.0998 75.4865 47.9444 75.9223 47.6532C76.3581 47.362 76.6977 46.9482 76.8983 46.4639C77.0988 45.9797 77.1513 45.4469 77.049 44.9328C76.9468 44.4188 76.6944 43.9465 76.3238 43.5759C75.9532 43.2053 75.481 42.953 74.967 42.8507C74.4529 42.7485 73.9201 42.801 73.4359 43.0015C72.9516 43.2021 72.5378 43.5418 72.2466 43.9776C71.9555 44.4133 71.8 44.9257 71.8 45.4498C71.8 45.7978 71.8685 46.1424 72.0016 46.4639C72.1348 46.7855 72.33 47.0775 72.5761 47.3236C72.8222 47.5697 73.1143 47.7649 73.4359 47.8981C73.7574 48.0313 74.102 48.0998 74.45 48.0998Z"
+            fill="#8067FF" />
+          <path
+            d="M50.51 48.0901C51.968 48.0901 53.15 46.9081 53.15 45.4501C53.15 43.992 51.968 42.8101 50.51 42.8101C49.052 42.8101 47.87 43.992 47.87 45.4501C47.87 46.9081 49.052 48.0901 50.51 48.0901Z"
+            fill="#8067FF" />
+          <path
+            d="M27.5913 47.7915C28.9398 47.2371 29.5835 45.6944 29.029 44.3459C28.4746 42.9974 26.932 42.3538 25.5835 42.9082C24.235 43.4626 23.5912 45.0052 24.1457 46.3537C24.7001 47.7022 26.2428 48.346 27.5913 47.7915Z"
+            fill="#8067FF" />
+          <path
+            d="M2.64996 48.0998C3.17408 48.0998 3.68646 47.9444 4.12225 47.6532C4.55804 47.362 4.89763 46.9482 5.09821 46.4639C5.29878 45.9797 5.35134 45.4469 5.24908 44.9328C5.14683 44.4188 4.89447 43.9465 4.52386 43.5759C4.15326 43.2053 3.68098 42.953 3.16693 42.8507C2.65288 42.7485 2.12015 42.801 1.63593 43.0015C1.1517 43.2021 0.73778 43.5418 0.446594 43.9776C0.155409 44.4133 -6.10352e-05 44.9257 -6.10352e-05 45.4498C-6.10352e-05 46.1526 0.279213 46.8266 0.776184 47.3236C1.27316 47.8206 1.94714 48.0998 2.64996 48.0998Z"
+            fill="#8067FF" />
+          <path
+            d="M146.25 26.6902C147.708 26.6902 148.89 25.5082 148.89 24.0502C148.89 22.5921 147.708 21.4102 146.25 21.4102C144.792 21.4102 143.61 22.5921 143.61 24.0502C143.61 25.5082 144.792 26.6902 146.25 26.6902Z"
+            fill="#8067FF" />
+          <path
+            d="M122.31 26.6902C123.768 26.6902 124.95 25.5082 124.95 24.0502C124.95 22.5921 123.768 21.4102 122.31 21.4102C120.852 21.4102 119.67 22.5921 119.67 24.0502C119.67 25.5082 120.852 26.6902 122.31 26.6902Z"
+            fill="#8067FF" />
+          <path
+            d="M98.38 26.6599C98.9049 26.6618 99.4187 26.5079 99.856 26.2174C100.293 25.927 100.635 25.5132 100.836 25.0286C101.038 24.544 101.092 24.0103 100.99 23.4953C100.888 22.9803 100.635 22.5073 100.264 22.1361C99.8927 21.7649 99.4195 21.5122 98.9045 21.4103C98.3895 21.3084 97.8559 21.3617 97.3713 21.5635C96.8867 21.7653 96.4729 22.1065 96.1825 22.5438C95.892 22.9812 95.738 23.4949 95.7399 24.0199C95.7426 24.7192 96.0217 25.3892 96.5162 25.8837C97.0107 26.3783 97.6806 26.6572 98.38 26.6599Z"
+            fill="#8067FF" />
+          <path
+            d="M74.45 26.6599C74.9746 26.6599 75.4873 26.5042 75.9233 26.2125C76.3593 25.9209 76.699 25.5065 76.8993 25.0217C77.0995 24.5369 77.1514 24.0035 77.0483 23.4892C76.9452 22.9749 76.6919 22.5027 76.3203 22.1325C75.9487 21.7623 75.4755 21.5107 74.9608 21.4096C74.4461 21.3084 73.913 21.3624 73.4289 21.5645C72.9449 21.7666 72.5318 22.1078 72.2418 22.5449C71.9518 22.982 71.798 23.4953 71.8 24.0199C71.8 24.3674 71.8686 24.7115 72.0019 25.0325C72.1352 25.3534 72.3305 25.6449 72.5767 25.8902C72.8229 26.1354 73.1151 26.3297 73.4366 26.4618C73.7581 26.5939 74.1025 26.6612 74.45 26.6599Z"
+            fill="#8067FF" />
+          <path
+            d="M50.51 26.6902C51.968 26.6902 53.15 25.5082 53.15 24.0502C53.15 22.5921 51.968 21.4102 50.51 21.4102C49.052 21.4102 47.87 22.5921 47.87 24.0502C47.87 25.5082 49.052 26.6902 50.51 26.6902Z"
+            fill="#8067FF" />
+          <path
+            d="M27.5937 26.3892C28.9422 25.8348 29.5859 24.2922 29.0315 22.9437C28.477 21.5952 26.9344 20.9514 25.5859 21.5059C24.2374 22.0603 23.5936 23.603 24.1481 24.9515C24.7025 26.3 26.2452 26.9437 27.5937 26.3892Z"
+            fill="#8067FF" />
+          <path
+            d="M2.64998 26.6599C3.17453 26.6599 3.68724 26.5042 4.12325 26.2125C4.55925 25.9209 4.89893 25.5065 5.0992 25.0217C5.29948 24.5369 5.35144 24.0035 5.24837 23.4892C5.14531 22.9749 4.89183 22.5027 4.52022 22.1325C4.14861 21.7623 3.67555 21.5107 3.16085 21.4096C2.64614 21.3084 2.11303 21.3624 1.62899 21.5645C1.14494 21.7666 0.73171 22.1078 0.44173 22.5449C0.15175 22.982 -0.00202158 23.4953 -4.21631e-05 24.0199C-4.46563e-05 24.3674 0.0685648 24.7115 0.201862 25.0325C0.335159 25.3534 0.530606 25.6449 0.776813 25.8902C1.02302 26.1354 1.31522 26.3297 1.63668 26.4618C1.95813 26.5939 2.30245 26.6612 2.64998 26.6599Z"
+            fill="#8067FF" />
+          <path
+            d="M146.25 5.28C147.708 5.28 148.89 4.09803 148.89 2.64C148.89 1.18197 147.708 0 146.25 0C144.792 0 143.61 1.18197 143.61 2.64C143.61 4.09803 144.792 5.28 146.25 5.28Z"
+            fill="#8067FF" />
+          <path
+            d="M122.31 5.28C123.768 5.28 124.95 4.09803 124.95 2.64C124.95 1.18197 123.768 0 122.31 0C120.852 0 119.67 1.18197 119.67 2.64C119.67 4.09803 120.852 5.28 122.31 5.28Z"
+            fill="#8067FF" />
+          <path
+            d="M98.3799 5.29024C98.9045 5.29222 99.4178 5.13851 99.8549 4.84853C100.292 4.55855 100.633 4.14532 100.835 3.66127C101.037 3.17723 101.091 2.64412 100.99 2.12941C100.889 1.61471 100.638 1.14159 100.267 0.769978C99.8972 0.398368 99.425 0.144953 98.9107 0.0418894C98.3964 -0.0611745 97.863 -0.00927669 97.3782 0.190998C96.8934 0.391273 96.4789 0.730946 96.1873 1.16695C95.8957 1.60295 95.7399 2.11567 95.7399 2.64022C95.7399 3.34131 96.0178 4.01383 96.5126 4.51052C97.0074 5.0072 97.6789 5.2876 98.3799 5.29024Z"
+            fill="#8067FF" />
+          <path
+            d="M74.45 5.29023C74.9741 5.29023 75.4865 5.13483 75.9223 4.84364C76.3581 4.55245 76.6977 4.13859 76.8983 3.65437C77.0988 3.17015 77.1513 2.63729 77.049 2.12324C76.9468 1.60919 76.6944 1.13698 76.3238 0.76637C75.9532 0.395761 75.481 0.143401 74.967 0.04115C74.4529 -0.0611008 73.9201 -0.00860433 73.4359 0.191968C72.9516 0.39254 72.5378 0.732191 72.2466 1.16798C71.9555 1.60377 71.8 2.11609 71.8 2.64021C71.8 2.98821 71.8685 3.33286 72.0016 3.65437C72.1348 3.97588 72.33 4.26798 72.5761 4.51405C72.8222 4.76013 73.1143 4.95534 73.4359 5.08851C73.7574 5.22169 74.102 5.29023 74.45 5.29023Z"
+            fill="#8067FF" />
+          <path
+            d="M50.51 5.28C51.968 5.28 53.15 4.09803 53.15 2.64C53.15 1.18197 51.968 0 50.51 0C49.052 0 47.87 1.18197 47.87 2.64C47.87 4.09803 49.052 5.28 50.51 5.28Z"
+            fill="#8067FF" />
+          <path
+            d="M27.5922 4.97757C28.9407 4.42314 29.5844 2.88048 29.03 1.53198C28.4755 0.183476 26.9329 -0.460193 25.5844 0.0942435C24.2359 0.64868 23.5921 2.19128 24.1466 3.53978C24.701 4.88828 26.2437 5.53201 27.5922 4.97757Z"
+            fill="#8067FF" />
+          <path
+            d="M2.64996 5.29023C3.17408 5.29023 3.68646 5.13483 4.12225 4.84364C4.55804 4.55245 4.89763 4.13859 5.09821 3.65437C5.29878 3.17015 5.35134 2.63729 5.24908 2.12324C5.14683 1.60919 4.89447 1.13698 4.52386 0.76637C4.15326 0.395761 3.68098 0.143401 3.16693 0.04115C2.65288 -0.0611008 2.12015 -0.00860433 1.63593 0.191968C1.1517 0.39254 0.73778 0.732191 0.446594 1.16798C0.155409 1.60377 -6.10352e-05 2.11609 -6.10352e-05 2.64021C-6.10352e-05 3.34303 0.279213 4.01708 0.776184 4.51405C1.27316 5.01102 1.94714 5.29023 2.64996 5.29023Z"
+            fill="#8067FF" />
+        </g>
+        <defs>
+          <clipPath id="clip0_2614_13999">
+            <rect width="148.89" height="90.91" fill="white" />
+          </clipPath>
+        </defs>
+      </svg>
+    </div>
+
+    <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
+      <div class="mb-10 md:mb-16 space-y-2">
+        <h3 class="text-center">Words from our satisfied clients</h3>
+
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-4 md:gap-8">
+        <!-- quote - start -->
+        <div class="flex flex-col bg-white shadow-lg rounded-lg gap-4 md:gap-6 px-8 py-6">
+          <div class="max-w-md text-gray-500 lg:text-lg ">“This is a section of some simple filler
+            text, also
+            known as placeholder text.”</div>
+
+          <div class="flex flex-col sm:flex-row  gap-2 md:gap-3">
+            <div class="w-12 md:w-14 h-12 md:h-14 bg-gray-100 border-2 border-indigo-100 rounded-full overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1532073150508-0c1df022bdd1?auto=format&q=75&fit=crop&w=112"
+                loading="lazy" alt="Photo by christian ferrer" class="w-full h-full object-cover object-center" />
+            </div>
+
+            <div>
+              <div class=" font-bold text-center text-gray-500 sm:text-left">
+                Kate Berg</div>
+              <p class="text-sm md:text-sm text-center sm:text-left">CFO / Dashdash
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- quote - end -->
+        <!-- quote - start -->
+        <div class="flex flex-col bg-white shadow-lg rounded-lg gap-4 md:gap-6 px-8 py-6">
+          <div class="max-w-md text-gray-500 lg:text-lg ">“This is a section of some simple filler
+            text, also
+            known as placeholder text.”</div>
+
+          <div class="flex flex-col sm:flex-row  gap-2 md:gap-3">
+            <div class="w-12 md:w-14 h-12 md:h-14 bg-gray-100 border-2 border-indigo-100 rounded-full overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1532073150508-0c1df022bdd1?auto=format&q=75&fit=crop&w=112"
+                loading="lazy" alt="Photo by christian ferrer" class="w-full h-full object-cover object-center" />
+            </div>
+
+            <div>
+              <div class=" font-bold text-center text-gray-500 sm:text-left">
+                Kate Berg</div>
+              <p class="text-sm md:text-sm text-center sm:text-left">CFO / Dashdash
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- quote - end -->
+        <!-- quote - start -->
+        <div class="flex flex-col bg-white shadow-lg rounded-lg gap-4 md:gap-6 px-8 py-6">
+          <div class="max-w-md text-gray-500 lg:text-lg ">“This is a section of some simple filler
+            text, also
+            known as placeholder text.”</div>
+
+          <div class="flex flex-col sm:flex-row  gap-2 md:gap-3">
+            <div class="w-12 md:w-14 h-12 md:h-14 bg-gray-100 border-2 border-indigo-100 rounded-full overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1532073150508-0c1df022bdd1?auto=format&q=75&fit=crop&w=112"
+                loading="lazy" alt="Photo by christian ferrer" class="w-full h-full object-cover object-center" />
+            </div>
+
+            <div>
+              <div class=" font-bold text-center text-gray-500 sm:text-left">
+                Kate Berg</div>
+              <p class="text-sm md:text-sm text-center sm:text-left">CFO / Dashdash
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- quote - end -->
+        <!-- quote - start -->
+        <div class="flex flex-col bg-white shadow-lg rounded-lg gap-4 md:gap-6 px-8 py-6">
+          <div class="max-w-md text-gray-500 lg:text-lg ">“This is a section of some simple filler
+            text, also
+            known as placeholder text.”</div>
+
+          <div class="flex flex-col sm:flex-row  gap-2 md:gap-3">
+            <div class="w-12 md:w-14 h-12 md:h-14 bg-gray-100 border-2 border-indigo-100 rounded-full overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1532073150508-0c1df022bdd1?auto=format&q=75&fit=crop&w=112"
+                loading="lazy" alt="Photo by christian ferrer" class="w-full h-full object-cover object-center" />
+            </div>
+
+            <div>
+              <div class=" font-bold text-center text-gray-500 sm:text-left">
+                Kate Berg</div>
+              <p class="text-sm md:text-sm text-center sm:text-left">CFO / Dashdash
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- quote - end -->
+        <!-- quote - start -->
+        <div class="flex flex-col bg-white shadow-lg rounded-lg gap-4 md:gap-6 px-8 py-6">
+          <div class="max-w-md text-gray-500 lg:text-lg ">“This is a section of some simple filler
+            text, also
+            known as placeholder text.”</div>
+
+          <div class="flex flex-col sm:flex-row  gap-2 md:gap-3">
+            <div class="w-12 md:w-14 h-12 md:h-14 bg-gray-100 border-2 border-indigo-100 rounded-full overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1532073150508-0c1df022bdd1?auto=format&q=75&fit=crop&w=112"
+                loading="lazy" alt="Photo by christian ferrer" class="w-full h-full object-cover object-center" />
+            </div>
+
+            <div>
+              <div class=" font-bold text-center text-gray-500 sm:text-left">
+                Kate Berg</div>
+              <p class="text-sm md:text-sm text-center sm:text-left">CFO / Dashdash
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- quote - end -->
+      </div>
+    </div>
 
 
 
 
+    <!-- CTA -->
 
 
-  <!--  -->
-  <!--  -->
+    <div class="px-4">
+      <div class="md:max-w-5xl my-12 md:my-20 py-6 sm:py-8 md:py-14 bg-gray-900 rounded-xl px-4 md:px-8 mx-auto">
+
+        <!-- text - start -->
+        <div class="flex flex-col justify-center items-center  space-y-6">
+          <h3 class="text-center text-white">Our competitive advantage</h3>
+
+          <p class="max-w-screen-md text-gray-400 md:text-lg  text-center mx-auto">This is a section of some simple
+            filler
+            text, also known as placeholder text. It shares some characteristics of a real written text but is random
+            or
+            otherwise generated.</p>
+          <button class="btn btn-primary btn-sm md:btn md:btn-primary ">Get started</button>
+
+        </div>
+
+        <!-- text - end -->
+
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- TEAM SECTION -->
+
+  <!-- <div class="bg-white py-6 sm:py-8 md:py-14">
+    <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
+    </div>
+  </div> -->
+
+  <div class="bg-white py-6 sm:py-8 md:py-14">
+    <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
+      <!-- text - start -->
+
+
+      <div class="flex flex-col lg:flex-row md:justify-between mb-10 md:mb-16">
+        <div class="md:max-w-prose">
+          <h2 class="text-gray-800 text-2xl lg:text-3xl font-bold mb-2 md:mb-6">Meet our Team</h2>
+
+          <p class="text-gray-500 md:text-lg mb-4 mx-auto">This is a section of some simple filler
+            text, also known as placeholder text. It shares some characteristics. text. It shares some characteristics.
+          </p>
+        </div>
+        <div class="flex  items-start gap-2">
+          <button class="btn btn-primary btn-sm">Open positions</button>
+          <button class="btn btn-outline-primary btn-sm">About us</button>
+        </div>
+      </div>
+      <!-- text - end -->
+
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-x-4 lg:gap-x-8 gap-y-8 lg:gap-y-12">
+        <!-- person - start -->
+        <div>
+          <div class="h-48 sm:h-60 md:h-80 bg-gray-100 overflow-hidden rounded-lg shadow-lg mb-2 sm:mb-4">
+            <img src="https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=500"
+              loading="lazy" alt="Photo by Radu Florin" class="w-full h-full object-cover object-center" />
+          </div>
+
+          <div>
+            <div class="text-indigo-500 md:text-lg font-bold">John McCulling</div>
+            <p class="text-gray-500 text-sm md:text-base mb-3 md:mb-4">Founder / CEO</p>
+
+            <!-- social - start -->
+            <div class="flex">
+              <div class="flex gap-4">
+                <a href="#" target="_blank"
+                  class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+                  <svg class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                  </svg>
+                </a>
+
+                <a href="#" target="_blank"
+                  class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+                  <svg class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <!-- social - end -->
+          </div>
+        </div>
+        <!-- person - end -->
+
+        <!-- person - start -->
+        <div>
+          <div class="h-48 sm:h-60 md:h-80 bg-gray-100 overflow-hidden rounded-lg shadow-lg mb-2 sm:mb-4">
+            <img src="https://images.unsplash.com/photo-1532073150508-0c1df022bdd1?auto=format&q=75&fit=crop&w=500"
+              loading="lazy" alt="Photo by christian ferrer" class="w-full h-full object-cover object-center" />
+          </div>
+
+          <div>
+            <div class="text-indigo-500 md:text-lg font-bold">Kate Berg</div>
+            <p class="text-gray-500 text-sm md:text-base mb-3 md:mb-4">CFO</p>
+
+            <!-- social - start -->
+            <div class="flex">
+              <div class="flex gap-4">
+                <a href="#" target="_blank"
+                  class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+                  <svg class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                  </svg>
+                </a>
+
+                <a href="#" target="_blank"
+                  class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+                  <svg class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <!-- social - end -->
+          </div>
+        </div>
+        <!-- person - end -->
+
+        <!-- person - start -->
+        <div>
+          <div class="h-48 sm:h-60 md:h-80 bg-gray-100 overflow-hidden rounded-lg shadow-lg mb-2 sm:mb-4">
+            <img src="https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&q=75&fit=crop&w=500"
+              loading="lazy" alt="Photo by Ayo Ogunseinde" class="w-full h-full object-cover object-center" />
+          </div>
+
+          <div>
+            <div class="text-indigo-500 md:text-lg font-bold">Greg Jackson</div>
+            <p class="text-gray-500 text-sm md:text-base mb-3 md:mb-4">CTO</p>
+
+            <!-- social - start -->
+            <div class="flex">
+              <div class="flex gap-4">
+                <a href="#" target="_blank"
+                  class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+                  <svg class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                  </svg>
+                </a>
+
+                <a href="#" target="_blank"
+                  class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+                  <svg class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <!-- social - end -->
+          </div>
+        </div>
+        <!-- person - end -->
+
+        <!-- person - start -->
+        <div>
+          <div class="h-48 sm:h-60 md:h-80 bg-gray-100 overflow-hidden rounded-lg shadow-lg mb-2 sm:mb-4">
+            <img src="https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?auto=format&q=75&fit=crop&w=500"
+              loading="lazy" alt="Photo by Midas Hofstra" class="w-full h-full object-cover object-center" />
+          </div>
+
+          <div>
+            <div class="text-indigo-500 md:text-lg font-bold">Robert Greyson</div>
+            <p class="text-gray-500 text-sm md:text-base mb-3 md:mb-4">Creative Director</p>
+
+            <!-- social - start -->
+            <div class="flex">
+              <div class="flex gap-4">
+                <a href="#" target="_blank"
+                  class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+                  <svg class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                  </svg>
+                </a>
+
+                <a href="#" target="_blank"
+                  class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+                  <svg class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <!-- social - end -->
+          </div>
+        </div>
+        <!-- person - end -->
+
+        <!-- person - start -->
+        <div>
+          <div class="h-48 sm:h-60 md:h-80 bg-gray-100 overflow-hidden rounded-lg shadow-lg mb-2 sm:mb-4">
+            <img src="https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?auto=format&q=75&fit=crop&w=500"
+              loading="lazy" alt="Photo by Elizeu Dias" class="w-full h-full object-cover object-center" />
+          </div>
+
+          <div>
+            <div class="text-indigo-500 md:text-lg font-bold">John Roberts</div>
+            <p class="text-gray-500 text-sm md:text-base mb-3 md:mb-4">Investor Relations</p>
+
+            <!-- social - start -->
+            <div class="flex">
+              <div class="flex gap-4">
+                <a href="#" target="_blank"
+                  class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+                  <svg class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                  </svg>
+                </a>
+
+                <a href="#" target="_blank"
+                  class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+                  <svg class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <!-- social - end -->
+          </div>
+        </div>
+        <!-- person - end -->
+
+        <!-- person - start -->
+        <div>
+          <div class="h-48 sm:h-60 md:h-80 bg-gray-100 overflow-hidden rounded-lg shadow-lg mb-2 sm:mb-4">
+            <img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&q=75&fit=crop&w=500"
+              loading="lazy" alt="Photo by Matheus Ferrero" class="w-full h-full object-cover object-center" />
+          </div>
+
+          <div>
+            <div class="text-indigo-500 md:text-lg font-bold">Judy Amandez</div>
+            <p class="text-gray-500 text-sm md:text-base mb-3 md:mb-4">Senior Art Director</p>
+
+            <!-- social - start -->
+            <div class="flex">
+              <div class="flex gap-4">
+                <a href="#" target="_blank"
+                  class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+                  <svg class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                  </svg>
+                </a>
+
+                <a href="#" target="_blank"
+                  class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+                  <svg class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <!-- social - end -->
+          </div>
+        </div>
+        <!-- person - end -->
+      </div>
+    </div>
+  </div>
+
+
   <!-- COMPONENTS -->
 
+
+  <!-- <div class="bg-white py-6 sm:py-8 md:py-14">
+    <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
+    </div>
+  </div> -->
+
+
+
   <div class="m-10 space-y-8">
+
+
+    <h2><Button> components</Button></h2>
     <div class="space-y-8 max-w-lg">
       <h2 class="text-teal-600 border-2 border-secondary "> Style Guide</h2>
       <h1 class="">Typography Heading 1 The quick brown fox jumps</h1>
@@ -447,12 +1234,31 @@
       <div class="h-8 w-32 bg-indigo-800 rounded"></div>
       <div class="h-8 w-32 bg-indigo-900 rounded"></div>
 
+      <!-- Boxicons Demo -->
+
+
+      <d class="flex flex-col">
+        <h4><Button> Boxicons</Button></h4>
+        <a href="https://boxicons.com/usage" class="text-blue-500 font-medium my-2">https://boxicons.com/usage</a>
+
+        <i class='bx bx-user text-indigo-600'></i>
+        <i class='bx bxs-user'></i>
+        <i class='bx bxl-facebook-square'></i>
+      </d>
+
+
     </div>
 
 
+
+
+
+
     <h2><Button> components</Button></h2>
+
+
     <div class=" flex flex-col space-y-2">
-      <button class="btn self-start ">Medium Button</button>
+      <button class="btn self-start wow bounceInUp">Mediummmm Button</button>
       <button class="btn btn-outline self-start">Medium Button</button>
       <button class="btn btn-plain self-start">Medium Button</button>
     </div>
@@ -480,182 +1286,15 @@
 
 
 
-    <div class="space-y-2">
-      <h2><Button> components</Button></h2>
-      <button class="btn">Medium Button</button>
-      <button class="btn">Button</button>
-      <button class="btn btn-outlined">Button</button>
-      <button class="btn btn-accent">Button</button>
-      <button class="btn btn-ghost">Button</button>
-      <button class="btn btn-link">Button</button>
-      <button class="btn" disabled="disabled">Disabled using attribute</button>
-      <button class="btn btn-disabled" tabindex="-1" role="button" aria-disabled="true">Disabled</button>
-      <button class="btn btn-primary btn-outline">Three</button>
-      <a class="link link-primary">I'm a simple link</a>
-    </div>
-
-
-    <div class="rounded-box bg-base-100 border-base-content/5 text-base-content not-prose grid gap-3 border p-6">
-      <div class="grid grid-cols-2 gap-2 md:grid-cols-4">
-        <button class="btn">Default</button>
-        <button class="btn btn-primary">Primary</button>
-        <button class="btn btn-secondary">Secondary</button>
-        <button class="btn btn-accent">Accent</button>
-        <button class="btn btn-info">Info</button> <button class="btn btn-success">Success</button> <button
-          class="btn btn-warning">Warning</button> <button class="btn btn-error">Error</button></div>
-      <div class="grid grid-cols-2 place-items-center gap-2 md:grid-cols-4"><span class="badge">Default</span> <span
-          class="badge badge-primary">Primary</span> <span class="badge badge-secondary">Secondary</span> <span
-          class="badge badge-accent">Accent</span> <span class="badge badge-info">Info</span> <span
-          class="badge badge-success">Success</span> <span class="badge badge-warning">Warning</span> <span
-          class="badge badge-error ">Error</span></div>
-      <div class="flex flex-col gap-3">
-        <div class="flex flex-col gap-3 md:flex-row">
-          <div class="md:w-1/2">
-            <div class="tabs"><button class="tab tab-lifted">Tab</button> <button
-                class="tab tab-lifted tab-active">Tab</button> <button class="tab tab-lifted">Tab</button></div>
-            <div class="flex flex-col"><span class="link">I'm a simple link</span> <span class="link link-primary">I'm a
-                simple link</span> <span class="link link-secondary">I'm a simple link</span> <span
-                class="link link-accent">I'm a simple link</span></div>
-          </div>
-          <div class="flex flex-col gap-3 md:w-1/2"><progress value="20" max="100" class="progress">Default</progress>
-            <progress value="25" max="100" class="progress progress-primary">Primary</progress> <progress value="30"
-              max="100" class="progress progress-secondary">Secondary</progress> <progress value="40" max="100"
-              class="progress progress-accent">Accent</progress> <progress value="45" max="100"
-              class="progress progress-info">Info</progress> <progress value="55" max="100"
-              class="progress progress-success">Success</progress> <progress value="70" max="100"
-              class="progress progress-warning">Warning</progress> <progress value="90" max="100"
-              class="progress progress-error">Error</progress></div>
-        </div>
-        <div class="flex flex-col gap-3 md:flex-row">
-          <div class="stats bg-base-300 border-base-300 border md:w-1/2">
-            <div class="stat">
-              <div class="stat-title">Total Page Views</div>
-              <div class="stat-value">89,400</div>
-              <div class="stat-desc">21% more than last month</div>
-            </div>
-          </div>
-          <div class="flex flex-wrap items-center justify-center gap-3 md:w-1/2">
-            <div class="radial-progress" style="--value:60; --size:3.5rem;">60%</div>
-            <div class="radial-progress" style="--value:75; --size:3.5rem;">75%</div>
-            <div class="radial-progress" style="--value:90; --size:3.5rem;">90%</div>
-          </div>
-        </div>
-      </div>
-      <div class="flex flex-col gap-3">
-        <div class="flex flex-col gap-3 md:flex-row">
-          <div class="md:w-1/2">
-            <div><input type="checkbox" class="toggle"> <input type="checkbox" class="toggle toggle-primary"> <input
-                type="checkbox" class="toggle toggle-secondary"> <input type="checkbox" class="toggle toggle-accent">
-            </div>
-            <div><input type="checkbox" class="checkbox"> <input type="checkbox" class="checkbox checkbox-primary">
-              <input type="checkbox" class="checkbox checkbox-secondary"> <input type="checkbox"
-                class="checkbox checkbox-accent"></div>
-            <div><input type="radio" name="radio-1" class="radio"> <input type="radio" name="radio-1"
-                class="radio radio-primary"> <input type="radio" name="radio-1" class="radio radio-secondary"> <input
-                type="radio" name="radio-1" class="radio radio-accent"></div>
-          </div>
-          <div class="md:w-1/2"><input type="range" min="0" max="100" class="range range-xs"> <input type="range"
-              min="0" max="100" class="range range-xs range-primary"> <input type="range" min="0" max="100"
-              class="range range-xs range-secondary"> <input type="range" min="0" max="100"
-              class="range range-xs range-accent"></div>
-        </div>
-        <div class="flex flex-col gap-3 md:flex-row">
-          <div class="flex flex-col gap-3 md:w-1/2">
-            <input type="text" placeholder="Default" class="input input-bordered w-full">
-            <input type="text" placeholder="Primary" class="input input-primary input-bordered w-full">
-            <input type="text" placeholder="Secondary" class="input input-secondary input-bordered w-full">
-            <input type="text" placeholder="Accent" class="input input-accent input-bordered w-full">
-          </div>
-          <div class="flex flex-col gap-3 md:w-1/2">
-            <input type="text" placeholder="Info" class="input input-info input-bordered w-full">
-            <input type="text" placeholder="Success" class="input input-success input-bordered w-full">
-            <input type="text" placeholder="Warning" class="input input-warning input-bordered w-full">
-            <input type="text" placeholder="Error" class="input input-error input-bordered w-full">
-          </div>
-        </div>
-        <div class="navbar bg-neutral text-neutral-content rounded-box">
-          <div class="flex-none"><button class="btn btn-square btn-ghost"><svg xmlns="http://www.w3.org/2000/svg"
-                fill="none" viewBox="0 0 24 24" class="inline-block h-5 w-5 stroke-current">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
-                </path>
-              </svg></button></div>
-          <div class="flex-1"><button class="btn btn-ghost text-xl normal-case">daisyUI</button></div>
-        </div>
-        <div class="flex gap-3">
-          <div class="flex flex-grow flex-col gap-3">
-            <div class="text-4xl font-bold">Text Size 1</div>
-            <div class="text-3xl font-bold">Text Size 2</div>
-            <div class="text-2xl font-bold">Text Size 3</div>
-            <div class="text-xl font-bold">Text Size 4</div>
-            <div class="text-lg font-bold">Text Size 5</div>
-            <div class="text-sm font-bold">Text Size 6</div>
-            <div class="text-xs font-bold">Text Size 7</div>
-          </div>
-          <ul class="steps steps-vertical">
-            <li class="step step-primary">Step 1</li>
-            <li class="step step-primary">Step 2</li>
-            <li class="step">Step 3</li>
-            <li class="step">Step 4</li>
-          </ul>
-        </div>
-      </div>
-      <div class="flex flex-col gap-3">
-        <div class="alert">
-          <div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-              class="stroke-info h-6 w-6 flex-shrink-0">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-            </svg> <span>12 unread messages. Tap to see.</span></div>
-        </div>
-        <div class="alert alert-info">
-          <div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-              class="h-6 w-6 flex-shrink-0 stroke-current">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-            </svg> <span>New software update available.</span></div>
-        </div>
-        <div class="alert alert-success">
-          <div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 flex-shrink-0 stroke-current" fill="none"
-              viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-            </svg> <span>Your purchase has been confirmed!</span></div>
-        </div>
-        <div class="alert alert-warning">
-          <div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 flex-shrink-0 stroke-current" fill="none"
-              viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z">
-              </path>
-            </svg> <span>Warning: Invalid email address!</span></div>
-        </div>
-        <div class="alert alert-error">
-          <div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 flex-shrink-0 stroke-current" fill="none"
-              viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-            </svg> <span>Error! Task failed successfully.</span></div>
-        </div>
-      </div>
-    </div>
-
-  </div>
 
 
 
 
 
 
-
-
-
-
-
-
-
-  <!-- SCRIPTS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="/public/main.js"></script>
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/public/main.js"></script>
 </body>
 
 </html>
