@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Agency</title>
+  <!-- Google Font Poppins start here -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Boxicons icons -->
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Main style.css -->
+  <link rel="stylesheet" href="/public/style.css">
+</head>
+
+<body>
+
+
+  <!-- HEADER SECTION -->
+  <div class=" bg-no-repeat bg-center bg-cover bg-origin-border"
+    style=" background-image: url(./images/Pattern\ Light.png);">
+    <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
+
+      <!-- Nav bar starts here -->
+      <header class="flex justify-between items-center py-4">
+        <!-- logo - start -->
+        <a href="/" class="#8067FF inline-flex items-center text-lg text-black-800 font-bold gap-2.5" aria-label="logo">
+          <!-- <svg width="54" height="54" viewBox="0 0 95 94" class="w-6 h-auto text-indigo-500" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M96 0V47L48 94H0V47L48 0H96Z" />
+          </svg> -->
+
+          <svg width="40" height="30" viewBox="0 0 57 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M24.9595 16.0273L15.8625 35.1859L15.7137 35.5015H15.7077C15.7018 35.5141 15.6952 35.52 15.6952 35.5326V35.5386C15.6952 35.5445 15.6952 35.5445 15.6892 35.5511C15.6832 35.5577 15.6767 35.5696 15.6767 35.5756V35.5822L15.6707 35.5882L14.9595 35.0933C14.9561 35.09 14.9516 35.0879 14.9469 35.0873C14.9438 35.0839 14.9396 35.0815 14.935 35.0808V35.0748L8.42046 30.5541L1.7906 25.9521C1.16269 25.5152 0.667288 24.9138 0.358794 24.2138C0.0502977 23.5139 -0.0593617 22.7425 0.0418522 21.9842C0.143066 21.226 0.451243 20.5104 0.932542 19.9158C1.41384 19.3213 2.04965 18.8709 2.77018 18.614L16.0849 13.8769C16.4753 13.7354 16.8796 13.6352 17.2909 13.5781V13.5721C17.3095 13.5656 17.3154 13.5656 17.328 13.5721C17.338 13.5684 17.3484 13.5662 17.3591 13.5656C18.656 13.3786 19.9792 13.5868 21.156 14.1632L24.1987 15.6538L24.3224 15.7136L24.8484 15.967L24.9595 16.0273Z"
+              fill="url(#paint0_linear_2653_13003)" />
+            <g style="mix-blend-mode:multiply" opacity="0.15">
+              <g style="mix-blend-mode:multiply" opacity="0.15">
+                <path
+                  d="M24.9595 16.0274L15.8625 35.186L15.7137 35.5016H15.7077C15.7017 35.5141 15.6951 35.5201 15.6951 35.5326V35.5386C15.6951 35.5446 15.6951 35.5446 15.6892 35.5512C15.6832 35.5577 15.6766 35.5697 15.6766 35.5757V35.5822L15.6706 35.5882L14.9594 35.0934C14.9561 35.0899 14.9516 35.0879 14.9469 35.0874C14.9438 35.0838 14.9396 35.0815 14.9349 35.0808V35.0748L8.42041 30.5541L8.72342 30.2684L24.1963 15.655L24.32 15.7148L24.8459 15.9682L24.9595 16.0274Z"
+                  fill="black" />
+              </g>
+            </g>
+            <g style="mix-blend-mode:multiply" opacity="0.3">
+              <g style="mix-blend-mode:multiply" opacity="0.3">
+                <path
+                  d="M24.9595 16.0274L15.7161 35.5016C15.7216 35.5023 15.7267 35.5052 15.7302 35.5095C15.7338 35.5138 15.7355 35.5194 15.7351 35.5249C15.7347 35.5306 15.7323 35.5358 15.7282 35.5396C15.7241 35.5435 15.7187 35.5456 15.7131 35.5456C15.7075 35.5456 15.7021 35.5435 15.698 35.5396C15.6939 35.5358 15.6914 35.5306 15.691 35.5249C15.6906 35.5194 15.6924 35.5138 15.6959 35.5095C15.6995 35.5052 15.7045 35.5023 15.7101 35.5016C15.8093 35.2482 16.1285 34.4628 16.6251 33.2693C17.2563 31.8032 18.1157 29.6947 19.2106 27.1899C20.3055 24.6851 21.5851 21.7721 22.995 18.6619C23.4343 17.7056 23.8736 16.7135 24.3248 15.7178L24.9595 16.0274Z"
+                  fill="black" />
+              </g>
+            </g>
+            <path
+              d="M55.3367 19.7998C55.3309 19.8071 55.3266 19.8154 55.3241 19.8243C55.3162 19.8421 55.306 19.8588 55.2937 19.8739C55.244 19.9791 55.1885 20.0843 55.1323 20.1829L49.424 30.1274C48.4697 31.7867 47.0949 33.1651 45.4381 34.1237C43.7813 35.0824 41.9011 35.5873 39.987 35.5876H15.6705L15.6765 35.5816V35.5757C15.6765 35.5697 15.6831 35.5631 15.6891 35.5512C15.695 35.5392 15.695 35.5446 15.695 35.5386C15.6965 35.5255 15.7008 35.5129 15.7076 35.5016H15.7136L29.6468 5.72431C30.3261 4.27398 31.3459 3.00929 32.6192 2.0379C33.8926 1.06653 35.3817 0.417236 36.96 0.145315C38.5383 -0.126605 40.1589 -0.0131001 41.6839 0.476165C43.2089 0.965431 44.5931 1.81596 45.7185 2.95535L49.9793 7.27225C49.9956 7.29089 50.0143 7.30733 50.0348 7.32126C50.0366 7.32126 50.0382 7.32197 50.0395 7.32317C50.0407 7.32442 50.0414 7.3261 50.0414 7.32783L50.0474 7.33381L53.9806 11.3166C55.0639 12.4121 55.777 13.8192 56.0202 15.3405C56.2634 16.8619 56.0244 18.4212 55.3367 19.7998Z"
+              fill="url(#paint1_linear_2653_13003)" />
+            <g style="mix-blend-mode:multiply" opacity="0.3">
+              <g style="mix-blend-mode:multiply" opacity="0.3">
+                <path
+                  d="M55.324 19.8243C55.2642 19.948 55.2003 20.0634 55.1322 20.1829L49.4239 30.1274C48.4696 31.7867 47.0948 33.1651 45.438 34.1238C43.7812 35.0824 41.901 35.5873 39.9868 35.5876H23.0975C23.0975 35.5876 23.7287 35.532 24.8308 35.4681C25.9328 35.4041 27.4957 35.3013 29.3819 35.2332C31.2682 35.1531 33.4699 35.085 35.8265 35.0414C37.0015 35.0228 38.2172 34.9923 39.4567 34.9858C40.6474 35.0249 41.8364 34.8661 42.9751 34.516C45.2222 33.8359 47.1781 32.4257 48.5334 30.5087C48.7001 30.2798 48.8424 30.0449 48.9906 29.8094C49.1394 29.5621 49.2894 29.3146 49.4359 29.0737C49.7347 28.5914 50.0234 28.121 50.3078 27.6573C50.8649 26.7363 51.4087 25.8702 51.9161 25.0724C52.9118 23.4706 53.7898 22.1659 54.3833 21.2384C54.6821 20.7746 54.9337 20.422 55.0945 20.1745C55.2128 19.9887 55.2935 19.8739 55.324 19.8243Z"
+                  fill="black" />
+              </g>
+            </g>
+            <g style="mix-blend-mode:screen" opacity="0.4">
+              <g style="mix-blend-mode:screen" opacity="0.4">
+                <path
+                  d="M15.7078 35.5016H15.7138C15.7194 35.5024 15.7244 35.5052 15.728 35.5095C15.7315 35.5139 15.7332 35.5194 15.7329 35.525C15.7325 35.5306 15.73 35.5358 15.7259 35.5397C15.7218 35.5435 15.7164 35.5456 15.7108 35.5456C15.7052 35.5456 15.6998 35.5435 15.6957 35.5397C15.6916 35.5358 15.6891 35.5306 15.6887 35.525C15.6883 35.5194 15.6901 35.5139 15.6937 35.5095C15.6972 35.5052 15.7023 35.5024 15.7078 35.5016Z"
+                  fill="white" />
+              </g>
+            </g>
+            <g style="mix-blend-mode:screen" opacity="0.4">
+              <g style="mix-blend-mode:screen" opacity="0.4">
+                <path
+                  d="M49.9812 7.27047C49.7774 7.09117 49.1523 6.5222 48.2062 5.63763C47.6252 5.09317 46.92 4.43156 46.1102 3.67073C45.9117 3.48546 45.6918 3.2691 45.4916 3.09578C45.2629 2.91051 45.0278 2.71886 44.7863 2.52083C44.547 2.32698 44.295 2.14929 44.0321 1.98892C43.7694 1.80278 43.4891 1.64265 43.1954 1.51079C41.9371 0.867166 40.5511 0.512306 39.1385 0.47205C37.5742 0.435906 36.024 0.775084 34.6177 1.46118C33.1276 2.19302 31.8564 3.30425 30.932 4.68317C30.4687 5.41956 30.0634 6.19085 29.7199 6.99017C29.3422 7.81255 28.9591 8.6415 28.5754 9.46388C27.7984 11.1086 27.0173 12.754 26.2565 14.3743C25.4956 15.9945 24.7163 17.5837 23.9746 19.1239C22.49 22.197 21.0801 25.0545 19.8507 27.4911C18.6321 29.9338 17.5689 31.9503 16.8451 33.3727C16.2474 34.5166 15.8434 35.2649 15.7131 35.4998L29.6464 5.7225C30.3258 4.27219 31.3457 3.00756 32.6192 2.03629C33.8927 1.06501 35.382 0.415861 36.9603 0.144115C38.5387 -0.127632 40.1593 -0.0139274 41.6842 0.475544C43.2092 0.965015 44.5934 1.81576 45.7187 2.95533L49.9812 7.27047Z"
+                  fill="white" />
+              </g>
+            </g>
+            <g style="mix-blend-mode:screen" opacity="0.2">
+              <g style="mix-blend-mode:screen" opacity="0.2">
+                <path
+                  d="M53.2715 18.3649L53.1789 18.4575L53.0486 18.8286C53.0297 18.8736 53.0071 18.917 52.9811 18.9583L47.2788 28.8968C46.6438 29.9991 45.7662 30.9423 44.7124 31.655L34.6072 3.64624C35.8216 2.87388 37.232 2.46608 38.6712 2.47124C39.6568 2.47181 40.6325 2.6684 41.5414 3.04958C42.4502 3.43076 43.2742 3.98892 43.9653 4.69155L47.5716 8.34626V8.38332L48.2207 9.00787C48.2578 9.03895 48.3014 9.08856 48.357 9.13816L52.222 13.0522C52.8985 13.7373 53.3587 14.6062 53.5453 15.5508C53.7319 16.4954 53.6367 17.4739 53.2715 18.3649Z"
+                  fill="white" />
+              </g>
+            </g>
+            <g style="mix-blend-mode:multiply" opacity="0.3">
+              <g style="mix-blend-mode:multiply" opacity="0.3">
+                <path
+                  d="M14.9352 35.0807V35.0748C14.9412 35.0748 14.9412 35.0807 14.9471 35.0873C14.944 35.0838 14.9398 35.0815 14.9352 35.0807Z"
+                  fill="black" />
+              </g>
+            </g>
+            <g style="mix-blend-mode:multiply" opacity="0.3">
+              <g style="mix-blend-mode:multiply" opacity="0.3">
+                <path
+                  d="M16.0847 13.8752C16.4752 13.7336 16.8795 13.6335 17.2908 13.5763C17.2227 13.5949 17.0931 13.6259 16.9138 13.6755C16.505 13.7996 16.1055 13.9523 15.7184 14.1327C14.6857 14.5511 13.2321 15.1906 11.4636 15.8952C9.69516 16.5999 7.62492 17.4187 5.39861 18.2554C4.84159 18.4658 4.27917 18.6738 3.70422 18.8925C3.42571 19.0037 3.11015 19.1089 2.85674 19.22L2.49157 19.3808L2.15151 19.5972C1.4916 20.073 1.00842 20.7545 0.777895 21.5347C0.547368 22.3148 0.582536 23.1495 0.877884 23.9075C0.985247 24.1537 1.11785 24.388 1.27355 24.6068C1.33974 24.7165 1.42012 24.8169 1.51261 24.9056C1.59318 25.0098 1.68453 25.1051 1.78514 25.1901L2.14972 25.4811L2.49636 25.7286C2.74379 25.9079 2.9972 26.0872 3.24463 26.2665C3.7395 26.6251 4.23377 26.9777 4.71608 27.3237C6.15049 28.3565 7.50539 29.3522 8.72402 30.2738C9.15075 30.5828 9.56068 30.8924 9.94857 31.1888C11.4696 32.3333 12.7128 33.3291 13.5908 34.0032C14.3576 34.6008 14.8279 34.9924 14.9331 35.079L8.41855 30.5583L1.78873 25.9563C1.15971 25.5196 0.663353 24.9178 0.354238 24.2173C0.0451245 23.5167 -0.0647531 22.7444 0.0366938 21.9854C0.138141 21.2264 0.446973 20.5101 0.929229 19.9153C1.41148 19.3205 2.04846 18.8702 2.77009 18.614L16.0847 13.8752Z"
+                  fill="black" />
+              </g>
+            </g>
+            <g style="mix-blend-mode:multiply" opacity="0.3">
+              <g style="mix-blend-mode:multiply" opacity="0.3">
+                <path
+                  d="M17.2908 13.5723C17.3093 13.5657 17.3153 13.5657 17.3278 13.5723C17.3157 13.5753 17.3033 13.5773 17.2908 13.5783V13.5723Z"
+                  fill="black" />
+              </g>
+            </g>
+            <defs>
+              <linearGradient id="paint0_linear_2653_13003" x1="4.04784" y1="16.2601" x2="18.6613" y2="27.2053"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#7B61FF" />
+                <stop offset="1" stop-color="#5D3FF8" />
+              </linearGradient>
+              <linearGradient id="paint1_linear_2653_13003" x1="31.7666" y1="35.8012" x2="44.0257" y2="1.46763"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#7B61FF" />
+                <stop offset="1" stop-color="#7B61FF" />
+              </linearGradient>
+            </defs>
+          </svg>
+          FlexAgency
+        </a>
+        <!-- logo - end -->
+
+        <!-- navList - start -->
+        <nav class="hidden md:my-5 lg:flex lg:items-center lg:gap-12">
+          <a href="#" class="text-indigo-500 ">Home</a>
+          <a href="#"
+            class="text-gray-600 hover:text-indigo-500  active:text-indigo-700 transition duration-100">About</a>
+          <a href="#"
+            class="text-gray-600 hover:text-indigo-500  active:text-indigo-700 transition duration-100">Services</a>
+          <a href="#"
+            class="text-gray-600 hover:text-indigo-500  active:text-indigo-700 transition duration-100">Works</a>
+          <a href="#"
+            class="text-gray-600 hover:text-indigo-500  active:text-indigo-700 transition duration-100">Blog</a>
+          <a href="#"
+            class="text-gray-600 hover:text-indigo-500  active:text-indigo-700 transition duration-100">FAQs</a>
+
+          <!-- 
+                          buttons - start -->
+          <a href="#" class="hidden lg:inline-block bg-indigo-500 hover:bg-indigo-700 focus-visible:ring 
+          ring-indigo-300 text-white active:text-white text-sm md:text-white font-normal
+           text-center rounded-md outline-none transition duration-100 px-4 py-2">Contact Us</a>
+
+        </nav>
+        <!-- nav - end -->
+
+        <button type="button"
+          class="#8067FFline-flex btn btn-primary btn-sm py-1 px-2 items-center lg:hidden text-sm  gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd" />
+          </svg>
+
+          Menu
+        </button>
+        <!-- buttons - end -->
+        <!-- navbar ends -->
+
+      </header>
+
+    </div>
+  </div>
+
+
+  <!-- Intro-->
+
+
+  <div class="bg-white py-2">
+    <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
+      <div class="px-4">
+        <div class="md:max-w-5xl py-6 sm:py-8 md:py-14 px-4 md:px-8 mx-auto">
+
+          <!-- text - start -->
+          <div class="flex flex-col justify-center items-center  space-y-6">
+            <h1 class="text-center text-2xl font-bold sm:text-4xl md:text-5xl "> Our mission is to make knowledge and
+              news accessible for everyone.</h1>
+
+            <p class="max-w-screen-md text-gray-400 md:text-lg  text-center mx-auto">With our integrated CRM, project
+              management, collaboration and invoicing capabilities, you can manage your business in one secure platform.
+            </p>
+
+            <form class="w-full max-w-md flex gap-2 mb-3 sm:mb-5">
+              <input placeholder="Search"
+                class="w-full flex-1 bg-gray-white text-gray-800 placeholder-gray-400 border border-gray-300 focus:ring ring-indigo-300 rounded-lg outline-none transition duration-100 px-3 py-2" />
+
+
+            </form>
+
+          </div>
+
+          <!-- text - end -->
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- BLOG SECTION-->
+
+
+  <div class="bg-white">
+    <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
+      <!-- text - start -->
+      <div class="flex flex-col lg:flex-row md:justify-between mb-6">
+        <!-- Filtter Button group starts -->
+        <div class="grid grid-cols-3 md:flex justify-items-start gap-2 mb-6">
+          <button class="btn btn-primary btn-sm">All categories</button>
+          <button class="btn btn-plain-primary btn-sm text-gray-500 ">Branding</button>
+          <button class="btn btn-plain-primary btn-sm text-gray-500 ">Marketing</button>
+          <button class="btn btn-plain-primary btn-sm text-gray-500 ">Design</button>
+          <button class="btn btn-plain-primary btn-sm text-gray-500 ">Development</button>
+          <button class="btn btn-plain-primary btn-sm text-gray-500 ">SEO</button>
+        </div>
+      </div>
+      <!-- text - end -->
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 xl:gap-8">
+
+        <!-- article - start -->
+        <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
+          <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=600"
+              loading="lazy" alt="Photo by Magicle"
+              class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+          </a>
+
+          <div class="flex flex-col flex-1 justify-between p-4 sm:p-6">
+            <div>
+              <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                <a href="#" class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">10 best
+                  smartphones
+                  for devs</a>
+              </h2>
+
+              <p class="text-gray-500 mb-8">This is a section of some simple filler text, also known as
+                placeholder
+                text.
+                It
+                shares some characteristics of a real written text.
+              </p>
+            </div>
+
+            <a href="#" class="text-indigo-500 mt- ">Read more ></a>
+          </div>
+        </div>
+        <!-- article - end -->
+        <!-- article - start -->
+        <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
+          <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600"
+              loading="lazy" alt="Photo by Magicle"
+              class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+          </a>
+
+          <div class="flex flex-col flex-1 justify-between p-4 sm:p-6">
+            <div>
+              <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                <a href="#" class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">10 best
+                  smartphones
+                  for devs</a>
+              </h2>
+
+              <p class="text-gray-500 mb-8">This is a section of some simple filler text, also known as
+                placeholder
+                text.
+                It
+                shares some characteristics of a real written text.
+              </p>
+            </div>
+
+            <a href="#" class="text-indigo-500 mt- ">Read more ></a>
+          </div>
+        </div>
+        <!-- article - end -->
+
+        <!-- article - start -->
+        <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
+          <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600"
+              loading="lazy" alt="Photo by Martin Sanchez"
+              class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+          </a>
+
+          <div class="flex flex-col flex-1 p-4 sm:p-6">
+            <div>
+              <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                <a href="#" class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">The best
+                  notebooks to help you works smarter in 2021</a>
+              </h2>
+
+              <p class="text-gray-500 mb-8">This is a section of some simple filler text, also known as
+                placeholder
+                text.
+                It
+                shares some characteristics of a real written text.
+              </p>
+            </div>
+
+            <a href="#" class="text-indigo-500">Read more ></a>
+
+          </div>
+        </div>
+        <!-- article - end -->
+        <!-- article - start -->
+        <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
+          <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600"
+              loading="lazy" alt="Photo by Martin Sanchez"
+              class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+          </a>
+
+          <div class="flex flex-col flex-1 p-4 sm:p-6">
+            <div>
+              <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                <a href="#" class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">The best
+                  notebooks to help you works smarter in 2021</a>
+              </h2>
+
+              <p class="text-gray-500 mb-8">This is a section of some simple filler text, also known as
+                placeholder
+                text.
+                It
+                shares some characteristics of a real written text.
+              </p>
+            </div>
+
+            <a href="#" class="text-indigo-500">Read more ></a>
+
+          </div>
+        </div>
+        <!-- article - end -->
+        <!-- article - start -->
+        <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
+          <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600"
+              loading="lazy" alt="Photo by Martin Sanchez"
+              class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+          </a>
+
+          <div class="flex flex-col flex-1 p-4 sm:p-6">
+            <div>
+              <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                <a href="#" class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">The
+                  best
+                  notebooks to help you works smarter in 2021</a>
+              </h2>
+
+              <p class="text-gray-500 mb-8">This is a section of some simple filler text, also known as
+                placeholder
+                text.
+                It
+                shares some characteristics of a real written text.
+              </p>
+            </div>
+
+            <a href="#" class="text-indigo-500">Read more ></a>
+
+          </div>
+        </div>
+        <!-- article - end -->
+        <!-- article - start -->
+        <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
+          <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600"
+              loading="lazy" alt="Photo by Martin Sanchez"
+              class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+          </a>
+
+          <div class="flex flex-col flex-1 p-4 sm:p-6">
+            <div>
+              <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                <a href="#" class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">The
+                  best
+                  notebooks to help you works smarter in 2021</a>
+              </h2>
+
+              <p class="text-gray-500 mb-8">This is a section of some simple filler text, also known as
+                placeholder
+                text.
+                It
+                shares some characteristics of a real written text.
+              </p>
+            </div>
+
+            <a href="#" class="text-indigo-500">Read more ></a>
+
+          </div>
+        </div>
+        <!-- article - end -->
+        <!-- article - start -->
+        <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
+          <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600"
+              loading="lazy" alt="Photo by Martin Sanchez"
+              class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+          </a>
+
+          <div class="flex flex-col flex-1 p-4 sm:p-6">
+            <div>
+              <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                <a href="#" class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">The best
+                  notebooks to help you works smarter in 2021</a>
+              </h2>
+
+              <p class="text-gray-500 mb-8">This is a section of some simple filler text, also known as
+                placeholder
+                text.
+                It
+                shares some characteristics of a real written text.
+              </p>
+            </div>
+
+            <a href="#" class="text-indigo-500">Read more ></a>
+
+          </div>
+        </div>
+        <!-- article - end -->
+        <!-- article - start -->
+        <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
+          <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600"
+              loading="lazy" alt="Photo by Martin Sanchez"
+              class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+          </a>
+
+          <div class="flex flex-col flex-1 p-4 sm:p-6">
+            <div>
+              <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                <a href="#" class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">The
+                  best
+                  notebooks to help you works smarter in 2021</a>
+              </h2>
+
+              <p class="text-gray-500 mb-8">This is a section of some simple filler text, also known
+                as
+                placeholder
+                text.
+                It
+                shares some characteristics of a real written text.
+              </p>
+            </div>
+
+            <a href="#" class="text-indigo-500">Read more ></a>
+
+          </div>
+        </div>
+        <!-- article - end -->
+        <!-- article - start -->
+        <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
+          <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600"
+              loading="lazy" alt="Photo by Martin Sanchez"
+              class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+          </a>
+
+          <div class="flex flex-col flex-1 p-4 sm:p-6">
+            <div>
+              <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                <a href="#" class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">The
+                  best
+                  notebooks to help you works smarter in 2021</a>
+              </h2>
+
+              <p class="text-gray-500 mb-8">This is a section of some simple filler text, also
+                known as
+                placeholder
+                text.
+                It
+                shares some characteristics of a real written text.
+              </p>
+            </div>
+
+            <a href="#" class="text-indigo-500">Read more ></a>
+
+          </div>
+        </div>
+        <!-- article - end -->
+
+      </div>
+      <div class="flex justify-center my-16 md:my-20">
+        <button class="btn btn-primary btn-sm">View more</button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- NEWS CTA-->
+
+
+  <div class="bg-white py-6 sm:py-8 md:py-14 md:mb-14">
+    <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
+      <div class="px-4">
+        <div class="md:max-w-5xl py-6 sm:py-8 md:py-14 bg-gray-900 rounded-xl px-4 md:px-8 mx-auto">
+
+          <!-- text - start -->
+          <div class="flex flex-col justify-center items-center  space-y-6">
+            <h3 class="text-center text-white">Sign up for our newsletter</h3>
+
+            <p class="max-w-screen-md text-gray-400 md:text-lg  text-center mx-auto">This is a section of some
+              Stay in the know. We promise we will not spamm you. Only valuable weekly posts and nice product</p>
+
+            <form class="w-full max-w-md flex gap-2 mb-3 sm:mb-5">
+              <input placeholder="Email"
+                class="w-full flex-1 bg-gray-white text-gray-800 placeholder-gray-400 border border-gray-300 focus:ring ring-indigo-300 rounded-lg outline-none transition duration-100 px-3 py-2" />
+
+              <button class="inline-block btn btn-primary btn-sm">Send</button>
+            </form>
+
+          </div>
+
+          <!-- text - end -->
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- CONTACT SECTION -->
+
+  <div class="bg-white py-6 sm:py-8 md:py-20   bg-no-repeat bg-center bg-cover bg-origin-border relative"
+    style=" background-image: url(/public/images/Pattern\ Light.png);">
+    <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
+      <!-- text - start -->
+      <div class="flex flex-col lg:flex-row md:justify-between mb-10 md:mb-16">
+        <div class="md:max-w-prose">
+          <h2 class="text-gray-800 text-2xl lg:text-3xl font-bold mb-2 md:mb-6">Let's stay connected</h2>
+
+          <p class="text-gray-500 md:text-lg mb-4 mx-auto">This is a section of some simple filler
+            text, also known as placeholder text. It shares some characteristics. text. It shares some characteristics.
+          </p>
+        </div>
+        <div class="flex  items-start gap-2">
+          <button class="btn btn-primary btn-sm">Open positions</button>
+          <button class="btn btn-outline-primary  btn-sm">About Us</button>
+
+        </div>
+      </div>
+      <!-- text - end -->
+      <div class="grid sm:grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 xl:gap-8">
+
+        <!-- feature - start -->
+        <div class="grid grid-cols-2 order-last md:order-none gap-8 justify-between">
+
+          <!-- blurb starts -->
+          <div class="flex flex-col space-y-2">
+            <div class="w-12 md:w-14 h-12 md:h-14 flex justify-center 
+              items-center bg-indigo-500 text-white rounded-full shadow-lg">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+              </svg>
+            </div>
+            <h3 class="text-lg md:text-xl font-semibold">Email</h3>
+            <p class="text-gray-500">Info@flex.com</p>
+          </div>
+          <!-- blurb ends  -->
+
+          <!-- blurb starts -->
+          <div class="flex flex-col space-y-2">
+            <div class="w-12 md:w-14 h-12 md:h-14 flex justify-center 
+              items-center bg-indigo-500 text-white rounded-full shadow-lg">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+              </svg>
+            </div>
+            <h3 class="text-lg md:text-xl font-semibold">Phone</h3>
+            <p class="text-gray-500">+7-843 672 423</p>
+          </div>
+          <!-- blurb ends  -->
+          <!-- blurb starts -->
+          <div class="flex flex-col space-y-2">
+            <div class="w-12 md:w-14 h-12 md:h-14 flex justify-center 
+              items-center bg-indigo-500 text-white rounded-full shadow-lg">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+              </svg>
+            </div>
+            <h3 class="text-lg md:text-xl font-semibold">Address</h3>
+            <p class="text-gray-500">2335 Collins Street, <br> New Yourk, 3000, Australia</p>
+          </div>
+          <!-- blurb ends  -->
+          <!-- blurb starts -->
+          <div class="flex flex-col space-y-2">
+            <div class="w-12 md:w-14 h-12 md:h-14 flex justify-center 
+              items-center bg-indigo-500 text-white rounded-full shadow-lg">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+              </svg>
+            </div>
+
+            <h3 class="text-lg md:text-xl font-semibold">Socials</h3>
+            <!-- social - start -->
+            <div class="flex gap-4 pt-2">
+              <a href="#" target="_blank"
+                class="text-indigo-500 hover:text-gray-500 active:text-gray-600 transition duration-100">
+                <svg class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                </svg>
+              </a>
+
+              <a href="#" target="_blank"
+                class="text-indigo-500 hover:text-gray-500 active:text-gray-600 transition duration-100">
+                <svg class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                </svg>
+              </a>
+
+              <a href="#" target="_blank"
+                class="text-indigo-500 hover:text-gray-500 active:text-gray-600 transition duration-100">
+                <svg class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                </svg>
+              </a>
+
+              <a href="#" target="_blank"
+                class="text-indigo-500 hover:text-gray-500 active:text-gray-600 transition duration-100">
+                <svg class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>
+              </a>
+            </div>
+            <!-- social - end -->
+          </div>
+        </div>
+        <!-- blurb ends  -->
+
+        <!-- form starts -->
+        <form class="w-full flex flex-col rounded-xl p-10 h-full bg-white shadow space-y-6 mb-3 sm:mb-5">
+          <label class="block">
+            <span class="block text-sm font-medium mb-2 text-slate-700">Email</span>
+            <input placeholder="Message"
+              class="w-full flex-1 bg-gray-white text-gray-800 placeholder-gray-400 border border-gray-300 focus:ring ring-indigo-300 rounded-lg outline-none transition duration-100 px-3 py-2" />
+          </label>
+
+          <label class="block">
+            <span class="block text-sm font-medium mb-2 text-slate-700">Message</span>
+
+            <textarea placeholder="Message" name="textArea" id="" cols="30" rows="7"
+              class="w-full flex-1 bg-gray-white text-gray-800 placeholder-gray-400 border border-gray-300 focus:ring ring-indigo-300 rounded-lg outline-none transition duration-100 px-3 py-2"></textarea>
+          </label>
+          <button class=" btn btn-primary btn-sm">Send</button>
+        </form>
+        <!-- form ends -->
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+
+
+  <!-- FOOTER SECTION -->
+
+
+  <footer class="py-6 sm:py-8 bg-gray-900 md:py-14">
+    <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-12 lg:gap-8 pt-10 lg:pt-12  mb-16 ">
+        <div class="flex flex-col space-y-4 order-last md:order-none max-w-prose col-span-full lg:col-span-2">
+          <!-- logo - start -->
+          <a href="/" class="inline-flex items-center text-xl text-white font-bold gap-2.5" aria-label="logo">
+
+            <svg width="40" height="30" viewBox="0 0 57 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M24.9595 16.0273L15.8625 35.1859L15.7137 35.5015H15.7077C15.7018 35.5141 15.6952 35.52 15.6952 35.5326V35.5386C15.6952 35.5445 15.6952 35.5445 15.6892 35.5511C15.6832 35.5577 15.6767 35.5696 15.6767 35.5756V35.5822L15.6707 35.5882L14.9595 35.0933C14.9561 35.09 14.9516 35.0879 14.9469 35.0873C14.9438 35.0839 14.9396 35.0815 14.935 35.0808V35.0748L8.42046 30.5541L1.7906 25.9521C1.16269 25.5152 0.667288 24.9138 0.358794 24.2138C0.0502977 23.5139 -0.0593617 22.7425 0.0418522 21.9842C0.143066 21.226 0.451243 20.5104 0.932542 19.9158C1.41384 19.3213 2.04965 18.8709 2.77018 18.614L16.0849 13.8769C16.4753 13.7354 16.8796 13.6352 17.2909 13.5781V13.5721C17.3095 13.5656 17.3154 13.5656 17.328 13.5721C17.338 13.5684 17.3484 13.5662 17.3591 13.5656C18.656 13.3786 19.9792 13.5868 21.156 14.1632L24.1987 15.6538L24.3224 15.7136L24.8484 15.967L24.9595 16.0273Z"
+                fill="url(#paint0_linear_2653_13003)" />
+              <g style="mix-blend-mode:multiply" opacity="0.15">
+                <g style="mix-blend-mode:multiply" opacity="0.15">
+                  <path
+                    d="M24.9595 16.0274L15.8625 35.186L15.7137 35.5016H15.7077C15.7017 35.5141 15.6951 35.5201 15.6951 35.5326V35.5386C15.6951 35.5446 15.6951 35.5446 15.6892 35.5512C15.6832 35.5577 15.6766 35.5697 15.6766 35.5757V35.5822L15.6706 35.5882L14.9594 35.0934C14.9561 35.0899 14.9516 35.0879 14.9469 35.0874C14.9438 35.0838 14.9396 35.0815 14.9349 35.0808V35.0748L8.42041 30.5541L8.72342 30.2684L24.1963 15.655L24.32 15.7148L24.8459 15.9682L24.9595 16.0274Z"
+                    fill="black" />
+                </g>
+              </g>
+              <g style="mix-blend-mode:multiply" opacity="0.3">
+                <g style="mix-blend-mode:multiply" opacity="0.3">
+                  <path
+                    d="M24.9595 16.0274L15.7161 35.5016C15.7216 35.5023 15.7267 35.5052 15.7302 35.5095C15.7338 35.5138 15.7355 35.5194 15.7351 35.5249C15.7347 35.5306 15.7323 35.5358 15.7282 35.5396C15.7241 35.5435 15.7187 35.5456 15.7131 35.5456C15.7075 35.5456 15.7021 35.5435 15.698 35.5396C15.6939 35.5358 15.6914 35.5306 15.691 35.5249C15.6906 35.5194 15.6924 35.5138 15.6959 35.5095C15.6995 35.5052 15.7045 35.5023 15.7101 35.5016C15.8093 35.2482 16.1285 34.4628 16.6251 33.2693C17.2563 31.8032 18.1157 29.6947 19.2106 27.1899C20.3055 24.6851 21.5851 21.7721 22.995 18.6619C23.4343 17.7056 23.8736 16.7135 24.3248 15.7178L24.9595 16.0274Z"
+                    fill="black" />
+                </g>
+              </g>
+              <path
+                d="M55.3367 19.7998C55.3309 19.8071 55.3266 19.8154 55.3241 19.8243C55.3162 19.8421 55.306 19.8588 55.2937 19.8739C55.244 19.9791 55.1885 20.0843 55.1323 20.1829L49.424 30.1274C48.4697 31.7867 47.0949 33.1651 45.4381 34.1237C43.7813 35.0824 41.9011 35.5873 39.987 35.5876H15.6705L15.6765 35.5816V35.5757C15.6765 35.5697 15.6831 35.5631 15.6891 35.5512C15.695 35.5392 15.695 35.5446 15.695 35.5386C15.6965 35.5255 15.7008 35.5129 15.7076 35.5016H15.7136L29.6468 5.72431C30.3261 4.27398 31.3459 3.00929 32.6192 2.0379C33.8926 1.06653 35.3817 0.417236 36.96 0.145315C38.5383 -0.126605 40.1589 -0.0131001 41.6839 0.476165C43.2089 0.965431 44.5931 1.81596 45.7185 2.95535L49.9793 7.27225C49.9956 7.29089 50.0143 7.30733 50.0348 7.32126C50.0366 7.32126 50.0382 7.32197 50.0395 7.32317C50.0407 7.32442 50.0414 7.3261 50.0414 7.32783L50.0474 7.33381L53.9806 11.3166C55.0639 12.4121 55.777 13.8192 56.0202 15.3405C56.2634 16.8619 56.0244 18.4212 55.3367 19.7998Z"
+                fill="url(#paint1_linear_2653_13003)" />
+              <g style="mix-blend-mode:multiply" opacity="0.3">
+                <g style="mix-blend-mode:multiply" opacity="0.3">
+                  <path
+                    d="M55.324 19.8243C55.2642 19.948 55.2003 20.0634 55.1322 20.1829L49.4239 30.1274C48.4696 31.7867 47.0948 33.1651 45.438 34.1238C43.7812 35.0824 41.901 35.5873 39.9868 35.5876H23.0975C23.0975 35.5876 23.7287 35.532 24.8308 35.4681C25.9328 35.4041 27.4957 35.3013 29.3819 35.2332C31.2682 35.1531 33.4699 35.085 35.8265 35.0414C37.0015 35.0228 38.2172 34.9923 39.4567 34.9858C40.6474 35.0249 41.8364 34.8661 42.9751 34.516C45.2222 33.8359 47.1781 32.4257 48.5334 30.5087C48.7001 30.2798 48.8424 30.0449 48.9906 29.8094C49.1394 29.5621 49.2894 29.3146 49.4359 29.0737C49.7347 28.5914 50.0234 28.121 50.3078 27.6573C50.8649 26.7363 51.4087 25.8702 51.9161 25.0724C52.9118 23.4706 53.7898 22.1659 54.3833 21.2384C54.6821 20.7746 54.9337 20.422 55.0945 20.1745C55.2128 19.9887 55.2935 19.8739 55.324 19.8243Z"
+                    fill="black" />
+                </g>
+              </g>
+              <g style="mix-blend-mode:screen" opacity="0.4">
+                <g style="mix-blend-mode:screen" opacity="0.4">
+                  <path
+                    d="M15.7078 35.5016H15.7138C15.7194 35.5024 15.7244 35.5052 15.728 35.5095C15.7315 35.5139 15.7332 35.5194 15.7329 35.525C15.7325 35.5306 15.73 35.5358 15.7259 35.5397C15.7218 35.5435 15.7164 35.5456 15.7108 35.5456C15.7052 35.5456 15.6998 35.5435 15.6957 35.5397C15.6916 35.5358 15.6891 35.5306 15.6887 35.525C15.6883 35.5194 15.6901 35.5139 15.6937 35.5095C15.6972 35.5052 15.7023 35.5024 15.7078 35.5016Z"
+                    fill="white" />
+                </g>
+              </g>
+              <g style="mix-blend-mode:screen" opacity="0.4">
+                <g style="mix-blend-mode:screen" opacity="0.4">
+                  <path
+                    d="M49.9812 7.27047C49.7774 7.09117 49.1523 6.5222 48.2062 5.63763C47.6252 5.09317 46.92 4.43156 46.1102 3.67073C45.9117 3.48546 45.6918 3.2691 45.4916 3.09578C45.2629 2.91051 45.0278 2.71886 44.7863 2.52083C44.547 2.32698 44.295 2.14929 44.0321 1.98892C43.7694 1.80278 43.4891 1.64265 43.1954 1.51079C41.9371 0.867166 40.5511 0.512306 39.1385 0.47205C37.5742 0.435906 36.024 0.775084 34.6177 1.46118C33.1276 2.19302 31.8564 3.30425 30.932 4.68317C30.4687 5.41956 30.0634 6.19085 29.7199 6.99017C29.3422 7.81255 28.9591 8.6415 28.5754 9.46388C27.7984 11.1086 27.0173 12.754 26.2565 14.3743C25.4956 15.9945 24.7163 17.5837 23.9746 19.1239C22.49 22.197 21.0801 25.0545 19.8507 27.4911C18.6321 29.9338 17.5689 31.9503 16.8451 33.3727C16.2474 34.5166 15.8434 35.2649 15.7131 35.4998L29.6464 5.7225C30.3258 4.27219 31.3457 3.00756 32.6192 2.03629C33.8927 1.06501 35.382 0.415861 36.9603 0.144115C38.5387 -0.127632 40.1593 -0.0139274 41.6842 0.475544C43.2092 0.965015 44.5934 1.81576 45.7187 2.95533L49.9812 7.27047Z"
+                    fill="white" />
+                </g>
+              </g>
+              <g style="mix-blend-mode:screen" opacity="0.2">
+                <g style="mix-blend-mode:screen" opacity="0.2">
+                  <path
+                    d="M53.2715 18.3649L53.1789 18.4575L53.0486 18.8286C53.0297 18.8736 53.0071 18.917 52.9811 18.9583L47.2788 28.8968C46.6438 29.9991 45.7662 30.9423 44.7124 31.655L34.6072 3.64624C35.8216 2.87388 37.232 2.46608 38.6712 2.47124C39.6568 2.47181 40.6325 2.6684 41.5414 3.04958C42.4502 3.43076 43.2742 3.98892 43.9653 4.69155L47.5716 8.34626V8.38332L48.2207 9.00787C48.2578 9.03895 48.3014 9.08856 48.357 9.13816L52.222 13.0522C52.8985 13.7373 53.3587 14.6062 53.5453 15.5508C53.7319 16.4954 53.6367 17.4739 53.2715 18.3649Z"
+                    fill="white" />
+                </g>
+              </g>
+              <g style="mix-blend-mode:multiply" opacity="0.3">
+                <g style="mix-blend-mode:multiply" opacity="0.3">
+                  <path
+                    d="M14.9352 35.0807V35.0748C14.9412 35.0748 14.9412 35.0807 14.9471 35.0873C14.944 35.0838 14.9398 35.0815 14.9352 35.0807Z"
+                    fill="black" />
+                </g>
+              </g>
+              <g style="mix-blend-mode:multiply" opacity="0.3">
+                <g style="mix-blend-mode:multiply" opacity="0.3">
+                  <path
+                    d="M16.0847 13.8752C16.4752 13.7336 16.8795 13.6335 17.2908 13.5763C17.2227 13.5949 17.0931 13.6259 16.9138 13.6755C16.505 13.7996 16.1055 13.9523 15.7184 14.1327C14.6857 14.5511 13.2321 15.1906 11.4636 15.8952C9.69516 16.5999 7.62492 17.4187 5.39861 18.2554C4.84159 18.4658 4.27917 18.6738 3.70422 18.8925C3.42571 19.0037 3.11015 19.1089 2.85674 19.22L2.49157 19.3808L2.15151 19.5972C1.4916 20.073 1.00842 20.7545 0.777895 21.5347C0.547368 22.3148 0.582536 23.1495 0.877884 23.9075C0.985247 24.1537 1.11785 24.388 1.27355 24.6068C1.33974 24.7165 1.42012 24.8169 1.51261 24.9056C1.59318 25.0098 1.68453 25.1051 1.78514 25.1901L2.14972 25.4811L2.49636 25.7286C2.74379 25.9079 2.9972 26.0872 3.24463 26.2665C3.7395 26.6251 4.23377 26.9777 4.71608 27.3237C6.15049 28.3565 7.50539 29.3522 8.72402 30.2738C9.15075 30.5828 9.56068 30.8924 9.94857 31.1888C11.4696 32.3333 12.7128 33.3291 13.5908 34.0032C14.3576 34.6008 14.8279 34.9924 14.9331 35.079L8.41855 30.5583L1.78873 25.9563C1.15971 25.5196 0.663353 24.9178 0.354238 24.2173C0.0451245 23.5167 -0.0647531 22.7444 0.0366938 21.9854C0.138141 21.2264 0.446973 20.5101 0.929229 19.9153C1.41148 19.3205 2.04846 18.8702 2.77009 18.614L16.0847 13.8752Z"
+                    fill="black" />
+                </g>
+              </g>
+              <g style="mix-blend-mode:multiply" opacity="0.3">
+                <g style="mix-blend-mode:multiply" opacity="0.3">
+                  <path
+                    d="M17.2908 13.5723C17.3093 13.5657 17.3153 13.5657 17.3278 13.5723C17.3157 13.5753 17.3033 13.5773 17.2908 13.5783V13.5723Z"
+                    fill="black" />
+                </g>
+              </g>
+              <defs>
+                <linearGradient id="paint0_linear_2653_13003" x1="4.04784" y1="16.2601" x2="18.6613" y2="27.2053"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#7B61FF" />
+                  <stop offset="1" stop-color="#5D3FF8" />
+                </linearGradient>
+                <linearGradient id="paint1_linear_2653_13003" x1="31.7666" y1="35.8012" x2="44.0257" y2="1.46763"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#7B61FF" />
+                  <stop offset="1" stop-color="#7B61FF" />
+                </linearGradient>
+              </defs>
+            </svg>
+            FlexAgency
+          </a>
+          <!-- logo - end -->
+
+          <p class="text-gray-400 sm:pr-8 ">Launch your own Software As A Service Application with Flex Solutions.
+          </p>
+
+          <!-- social - start -->
+          <div class="flex gap-4">
+            <a href="#" target="_blank"
+              class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+              <svg class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+              </svg>
+            </a>
+
+            <a href="#" target="_blank"
+              class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+              <svg class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+              </svg>
+            </a>
+
+            <a href="#" target="_blank"
+              class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+              <svg class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+              </svg>
+            </a>
+
+            <a href="#" target="_blank"
+              class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+              <svg class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+              </svg>
+            </a>
+          </div>
+          <!-- social - end -->
+        </div>
+
+        <!-- nav - start -->
+        <div>
+          <div class="text-gray-100 font-bold tracking-widest uppercase mb-4">Products</div>
+
+          <nav class="flex flex-col gap-4">
+            <div>
+              <a href="#"
+                class="text-gray-400 hover:text-indigo-500 active:text-indigo-600 transition duration-100">Overview</a>
+            </div>
+
+            <div>
+              <a href="#"
+                class="text-gray-400 hover:text-indigo-500 active:text-indigo-600 transition duration-100">Solutions</a>
+            </div>
+
+            <div>
+              <a href="#"
+                class="text-gray-400 hover:text-indigo-500 active:text-indigo-600 transition duration-100">Pricing</a>
+            </div>
+
+            <div>
+              <a href="#"
+                class="text-gray-400 hover:text-indigo-500 active:text-indigo-600 transition duration-100">Customers</a>
+            </div>
+          </nav>
+        </div>
+        <!-- nav - end -->
+
+        <!-- nav - start -->
+        <div>
+          <div class="text-gray-100 font-bold tracking-widest uppercase mb-4">Company</div>
+
+          <nav class="flex flex-col gap-4">
+            <div>
+              <a href="#"
+                class="text-gray-400 hover:text-indigo-500 active:text-indigo-600 transition duration-100">About</a>
+            </div>
+
+            <div>
+              <a href="#"
+                class="text-gray-400 hover:text-indigo-500 active:text-indigo-600 transition duration-100">Investor
+                Relations</a>
+            </div>
+
+            <div>
+              <a href="#"
+                class="text-gray-400 hover:text-indigo-500 active:text-indigo-600 transition duration-100">Jobs</a>
+            </div>
+
+            <div>
+              <a href="#"
+                class="text-gray-400 hover:text-indigo-500 active:text-indigo-600 transition duration-100">Press</a>
+            </div>
+
+            <div>
+              <a href="#"
+                class="text-gray-400 hover:text-indigo-500 active:text-indigo-600 transition duration-100">Blog</a>
+            </div>
+          </nav>
+        </div>
+        <!-- nav - end -->
+
+        <!-- newsletter - start -->
+        <div class="col-span-2">
+          <div class="text-gray-100 font-bold tracking-widest uppercase mb-4">Newsletter</div>
+          <form class="w-full max-w-md flex gap-2 mb-3 sm:mb-5">
+            <input placeholder="Email"
+              class="w-full flex-1 bg-gray-white text-gray-800 placeholder-gray-400 border border-gray-300 focus:ring ring-indigo-300 rounded-lg outline-none transition duration-100 px-3 py-2" />
+
+            <button class="inline-block btn btn-primary btn-sm">Send</button>
+          </form>
+
+        </div>
+        <!-- newsletter - end -->
+
+      </div>
+
+      <div class="text-gray-400 text-sm text-center border-t border-gray-800 py-8"> © 2021 FlexAgency. All rights
+        reserved.</div>
+
+
+    </div>
+  </footer>
+
+
+
+  <!-- COMPONENTS -->
+
+
+  <!-- <div class="bg-white py-6 sm:py-8 md:py-14">
+    <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
+
+
+    </div>
+  </div> -->
+
+
+
+
+  <!-- SCRIPTS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="/public/main.js"></script>
+</body>
+
+</html>
+<!-- Terminal npm commamnd for AgencioTail -->
+<!-- 
+  npx tailwindcss -i ./input.css -o ./css/style.css --watch
+ -->
