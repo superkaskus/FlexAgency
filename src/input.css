@@ -48,11 +48,11 @@
   }
 
   .btn-outline-primary {
-    @apply border border-indigo-500 bg-white text-indigo-500 hover:border-gray-200 hover:bg-indigo-200 hover:text-indigo-600;
+    @apply border border-indigo-500 bg-transparent text-indigo-500 hover:border-gray-200 hover:bg-indigo-200 hover:text-indigo-600;
   }
 
   .btn-plain-primary {
-    @apply bg-white text-indigo-500 hover:bg-indigo-200 hover:text-indigo-600;
+    @apply bg-transparent text-indigo-500 hover:bg-indigo-200 hover:text-indigo-600;
   }
 
   .btn-sm {
@@ -74,3 +74,6 @@
 }
 
 @tailwind utilities;
+
+
+

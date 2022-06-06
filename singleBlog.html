@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
   <meta charset="UTF-8">
@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body>
+<body class="singleBlog">
 
 
   <!-- HEADER SECTION -->
@@ -127,29 +127,30 @@
 
         <!-- navList - start -->
         <nav class="hidden md:my-5 lg:flex lg:items-center lg:gap-12">
-          <a href="#" class="text-indigo-500 ">Home</a>
-          <a href="#"
+          <a href="index.html"
+            class="text-gray-600 hover:text-indigo-500  active:text-indigo-700 transition duration-100">Home</a>
+          <a href="about.html"
             class="text-gray-600 hover:text-indigo-500  active:text-indigo-700 transition duration-100">About</a>
-          <a href="#"
+          <a href="index.html#services"
             class="text-gray-600 hover:text-indigo-500  active:text-indigo-700 transition duration-100">Services</a>
-          <a href="#"
+          <a href="index.html#works"
             class="text-gray-600 hover:text-indigo-500  active:text-indigo-700 transition duration-100">Works</a>
-          <a href="#"
+          <a href="blogPage.html"
             class="text-gray-600 hover:text-indigo-500  active:text-indigo-700 transition duration-100">Blog</a>
-          <a href="#"
+          <a href="index.html#FAQs"
             class="text-gray-600 hover:text-indigo-500  active:text-indigo-700 transition duration-100">FAQs</a>
 
           <!-- 
                           buttons - start -->
-          <a href="#" class="hidden lg:inline-block bg-indigo-500 hover:bg-indigo-700 focus-visible:ring 
+          <a href="#contact" class="hidden lg:inline-block bg-indigo-500 hover:bg-indigo-700 focus-visible:ring 
           ring-indigo-300 text-white active:text-white text-sm md:text-white font-normal
            text-center rounded-md outline-none transition duration-100 px-4 py-2">Contact Us</a>
 
         </nav>
         <!-- nav - end -->
 
-        <button type="button"
-          class="#8067FFline-flex btn btn-primary btn-sm py-1 px-2 items-center lg:hidden text-sm  gap-2">
+        <button id="hamburger" type="button"
+          class="#8067FF inline-flex btn btn-primary btn-sm py-1 px-2 items-center lg:hidden text-sm  gap-2">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd"
               d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
@@ -161,9 +162,60 @@
         <!-- buttons - end -->
         <!-- navbar ends -->
 
-      </header>
 
+        <!-- Mobile menu, show/hide based on menu open state. -->
+
+
+        <div id="menu" class="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+          <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
+            <div class="px-5 pt-4 flex items-center justify-between">
+              <div class="flex justify-between">
+                <img class="h-6 w-auto" src="/images/Logo Shapes 3.png" alt="">
+                <p class="text-gray-900 ml-2 font-bold text-lg">FlexAgency</p>
+              </div>
+              <div class="-mr-2 ">
+                <button id="close" type="button"
+                  class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <span class="sr-only">Close main menu</span>
+                  <!-- Heroicon name: outline/x -->
+                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="2" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="menu-list px-2 pt-2 pb-3 space-y-1">
+              <a href="index.html"
+                class="block paa px-3 py-2 rounded-md text-base font-medium text-gray-500 hover:text-indigo-500 hover:bg-gray-50">Home</a>
+
+              <a href="about.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-500 hover:text-indigo-500
+                hover:bg-gray-50">About</a>
+
+              <a href="index.html#services"
+                class="block px-3 paa py-2 rounded-md text-base font-medium text-gray-500 hover:text-indigo-500 hover:bg-gray-50">Services</a>
+
+              <a href="index.html#works"
+                class="block px-3 paa py-2 rounded-md text-base font-medium text-gray-500 hover:text-indigo-500 hover:bg-gray-50">Works</a>
+              <a href="blogPage.html"
+                class="block px-3 py-2 rounded-md text-base font-medium text-gray-500 hover:text-indigo-500 hover:bg-gray-50">Blog</a>
+              <a href="index.html#FAQs"
+                class="block paa px-3 py-2 rounded-md text-base font-medium text-gray-500 hover:text-indigo-500 hover:bg-gray-50">FAQs</a>
+              <a href="#contact" class="flex paa just bg-indigo-500 hover:bg-indigo-700 focus-visible:ring 
+          ring-indigo-300 text-white active:text-white text-sm md:text-white font-normal
+           text-center rounded-md outline-none transition duration-100 px-4 py-2">Contact Us</a>
+            </div>
+
+          </div>
+        </div>
     </div>
+
+
+
+
+    </header>
+
+  </div>
   </div>
 
 
@@ -372,7 +424,7 @@
 
   <!-- CONTACT SECTION -->
 
-  <div class="bg-white py-6 sm:py-8 md:py-20   bg-no-repeat bg-center bg-cover bg-origin-border relative"
+  <div id="contact" class="bg-white py-6 sm:py-8 md:py-20   bg-no-repeat bg-center bg-cover bg-origin-border relative"
     style=" background-image: url(/images/Pattern\ Light.png);">
     <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
       <!-- text - start -->
@@ -385,8 +437,9 @@
           </p>
         </div>
         <div class="flex  items-start gap-2">
-          <button class="btn btn-primary btn-sm">Open positions</button>
-          <button class="btn btn-outline-primary  btn-sm">About Us</button>
+          <a href="about.html" class="btn btn-primary  btn-sm">Open positions</a>
+          <a href="about.html" class="btn btn-outline-primary   btn-sm">About Us</a>
+
 
         </div>
       </div>
