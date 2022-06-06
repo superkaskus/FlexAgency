@@ -18,7 +18,7 @@
   <!-- Animate.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- Main style.css -->
-  <link rel="stylesheet" href="/public/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -170,111 +170,323 @@
   <!-- Intro-->
 
 
-  <div class="bg-gray-900 py-14 md:pt-32 md:pb-52 px-4 md:px-8">
+  <div class="bg-white py-2">
     <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
+      <div class="px-4">
+        <div class="md:max-w-5xl py-6 sm:py-8 md:py-14 px-4 md:px-8 mx-auto">
 
-      <!-- text - start -->
-      <div class="max-w-screen-md flex flex-col justify-center items-center my-5 space-y-6 mx-auto">
-        <h1 class="text-center text-2xl text-white font-bold sm:text-3xl md:text-4xl ">Lorem ipsum dolor sit amet
-          Lorem ipsum dolor sit amet</h1>
+          <!-- text - start -->
+          <div class="flex flex-col justify-center items-center  space-y-6">
+            <h1 class="text-center text-2xl font-bold sm:text-4xl md:text-5xl "> Our mission is to make knowledge and
+              news accessible for everyone.</h1>
 
-        <p class="max-w-screen-md text-gray-500 md:text-lg  text-center mx-auto">With our integrated CRM, project
-          management, collaboration and invoicing capabilities, you can manage your business in one secure platform.
-        </p>
+            <p class="max-w-screen-md text-gray-400 md:text-lg  text-center mx-auto">With our integrated CRM, project
+              management, collaboration and invoicing capabilities, you can manage your business in one secure platform.
+            </p>
+
+            <form class="w-full max-w-md flex gap-2 mb-3 sm:mb-5">
+              <input placeholder="Search"
+                class="w-full flex-1 bg-gray-white text-gray-800 placeholder-gray-400 border border-gray-300 focus:ring ring-indigo-300 rounded-lg outline-none transition duration-100 px-3 py-2" />
+
+
+            </form>
+
+          </div>
+
+          <!-- text - end -->
+
+
+        </div>
       </div>
 
     </div>
   </div>
 
 
-  <!-- ABOUT SECTION -->
-
-  <div class="max-w-screen-xl mx-auto py-6 sm:py-8 lg:py-12">
-
-    <div class="flex flex-col items-center rounded-xl space-y-8 -mt-20 md:-mt-56 px-4 md:px-8">
-
-      <!-- Featured image -->
-      <div class="overflow-hidden rounded-xl w-full relative mb-6 md:mb-8">
-        <img src="/public/images/featured.png" loading="lazy" alt="Photo by Minh Pham"
-          class="w-full h-full md:h-[450px] object-cover object-center" />
-      </div>
-
-      <div class="max-w-screen-md">
+  <!-- BLOG SECTION-->
 
 
-
-        <p class="text-gray-500 sm:text-lg mb-6 md:mb-8">
-          This is a section of some simple filler text, also known as placeholder text. It shares some characteristics
-          of a
-          real written text but is random or otherwise generated. It may be used to display a sample of fonts or
-          generate
-          text for testing. Filler text is dummy text which has no meaning however looks very similar to real text. The
-          important factor when using filler text is that the text looks realistic otherwise it will not look very
-          good.<br /><br />
-
-          This is a section of some simple filler text, also known as placeholder text. It shares some characteristics
-          of a
-          real written text but is <a href="#"
-            class="text-indigo-500 hover:text-indigo-600 active:text-indigo-700 underline transition duration-100">random</a>
-          or otherwise generated. It may be used to display a sample of fonts or generate text for testing. Filler text
-          is
-          dummy text which has no meaning however looks very similar to real text.
-        </p>
-
-        <blockquote class="text-gray-500 sm:text-lg italic border-l-indigo-500 border-l-4 pl-4 md:pl-6 mb-6 md:mb-8">
-          “This is a section of
-          some
-          simple filler text, also known as placeholder text. It shares some characteristics of a real written text but
-          is
-          random or otherwise generated.”</blockquote>
-
-        <h2 class="text-gray-800 text-xl sm:text-2xl font-semibold mb-2 md:mb-4">The value of lorem epsum</h2>
-
-        <p class="text-gray-500 sm:text-lg mb-6 md:mb-8">This is a section of some simple filler text, also known as
-          placeholder text. It shares some characteristics of a real written text but is random or otherwise generated.
-          It
-          may be used to display a sample of fonts or generate text for testing. Filler text is dummy text which has no
-          meaning however looks very similar to real text.</p>
-
-        <p class="text-gray-500 sm:text-lg">This is a section of some simple filler text, also known as placeholder
-          text. It
-          shares some characteristics of a real written text but is random or otherwise generated. It may be used to
-          display
-          a sample of fonts or generate text for testing. Filler text is dummy text which has no meaning however
-          looks
-          very
-          similar to real the following:</p>
-
-        <ul class="list-disc list-inside text-gray-500 sm:text-lg mb-6 md:mb-8">
-          <li>This is a section of some simple filler text</li>
-          <li>Also known as placeholder text</li>
-          <li>It shares some characteristics of a real written text</li>
-        </ul>
-
-
-
-        <div class="bg-gray-100 overflow-hidden rounded-lg shadow-lg relative mb-6 md:mb-8">
-          <img src="/public/images/cafe.png" loading="lazy" alt="Photo by Minh Pham"
-            class="w-full h-full object-cover object-center" />
+  <div class="bg-white">
+    <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
+      <!-- text - start -->
+      <div class="flex flex-col lg:flex-row md:justify-between mb-6">
+        <!-- Filtter Button group starts -->
+        <div class="grid grid-cols-3 md:flex justify-items-start gap-2 mb-6">
+          <button class="btn btn-primary btn-sm">All categories</button>
+          <button class="btn btn-plain-primary btn-sm text-gray-500 ">Branding</button>
+          <button class="btn btn-plain-primary btn-sm text-gray-500 ">Marketing</button>
+          <button class="btn btn-plain-primary btn-sm text-gray-500 ">Design</button>
+          <button class="btn btn-plain-primary btn-sm text-gray-500 ">Development</button>
+          <button class="btn btn-plain-primary btn-sm text-gray-500 ">SEO</button>
         </div>
+      </div>
+      <!-- text - end -->
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 xl:gap-8">
 
-        <h2 class="text-gray-800 text-xl sm:text-2xl font-semibold mb-2 md:mb-4">Features</h2>
+        <!-- article - start -->
+        <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
+          <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=600"
+              loading="lazy" alt="Photo by Magicle"
+              class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+          </a>
 
-        <p class="text-gray-500 sm:text-lg">This is a section of some simple filler text, also known as placeholder
-          text. It
-          shares some characteristics of a real written text but is random or otherwise generated. It may be used to
-          display
-          a sample of fonts or generate text for testing. Filler text is dummy text which has no meaning however looks
-          very
-          similar to real text.
-          a sample of fonts or generate text for testing. Filler text is dummy text which has no meaning however looks
-          very
-          similar to real text.</p>
+          <div class="flex flex-col flex-1 justify-between p-4 sm:p-6">
+            <div>
+              <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                <a href="#" class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">10 best
+                  smartphones
+                  for devs</a>
+              </h2>
 
+              <p class="text-gray-500 mb-8">This is a section of some simple filler text, also known as
+                placeholder
+                text.
+                It
+                shares some characteristics of a real written text.
+              </p>
+            </div>
 
+            <a href="#" class="text-indigo-500 mt- ">Read more ></a>
+          </div>
+        </div>
+        <!-- article - end -->
+        <!-- article - start -->
+        <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
+          <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600"
+              loading="lazy" alt="Photo by Magicle"
+              class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+          </a>
+
+          <div class="flex flex-col flex-1 justify-between p-4 sm:p-6">
+            <div>
+              <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                <a href="#" class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">10 best
+                  smartphones
+                  for devs</a>
+              </h2>
+
+              <p class="text-gray-500 mb-8">This is a section of some simple filler text, also known as
+                placeholder
+                text.
+                It
+                shares some characteristics of a real written text.
+              </p>
+            </div>
+
+            <a href="#" class="text-indigo-500 mt- ">Read more ></a>
+          </div>
+        </div>
+        <!-- article - end -->
+
+        <!-- article - start -->
+        <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
+          <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600"
+              loading="lazy" alt="Photo by Martin Sanchez"
+              class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+          </a>
+
+          <div class="flex flex-col flex-1 p-4 sm:p-6">
+            <div>
+              <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                <a href="#" class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">The best
+                  notebooks to help you works smarter in 2021</a>
+              </h2>
+
+              <p class="text-gray-500 mb-8">This is a section of some simple filler text, also known as
+                placeholder
+                text.
+                It
+                shares some characteristics of a real written text.
+              </p>
+            </div>
+
+            <a href="#" class="text-indigo-500">Read more ></a>
+
+          </div>
+        </div>
+        <!-- article - end -->
+        <!-- article - start -->
+        <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
+          <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600"
+              loading="lazy" alt="Photo by Martin Sanchez"
+              class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+          </a>
+
+          <div class="flex flex-col flex-1 p-4 sm:p-6">
+            <div>
+              <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                <a href="#" class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">The best
+                  notebooks to help you works smarter in 2021</a>
+              </h2>
+
+              <p class="text-gray-500 mb-8">This is a section of some simple filler text, also known as
+                placeholder
+                text.
+                It
+                shares some characteristics of a real written text.
+              </p>
+            </div>
+
+            <a href="#" class="text-indigo-500">Read more ></a>
+
+          </div>
+        </div>
+        <!-- article - end -->
+        <!-- article - start -->
+        <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
+          <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600"
+              loading="lazy" alt="Photo by Martin Sanchez"
+              class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+          </a>
+
+          <div class="flex flex-col flex-1 p-4 sm:p-6">
+            <div>
+              <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                <a href="#" class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">The
+                  best
+                  notebooks to help you works smarter in 2021</a>
+              </h2>
+
+              <p class="text-gray-500 mb-8">This is a section of some simple filler text, also known as
+                placeholder
+                text.
+                It
+                shares some characteristics of a real written text.
+              </p>
+            </div>
+
+            <a href="#" class="text-indigo-500">Read more ></a>
+
+          </div>
+        </div>
+        <!-- article - end -->
+        <!-- article - start -->
+        <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
+          <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600"
+              loading="lazy" alt="Photo by Martin Sanchez"
+              class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+          </a>
+
+          <div class="flex flex-col flex-1 p-4 sm:p-6">
+            <div>
+              <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                <a href="#" class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">The
+                  best
+                  notebooks to help you works smarter in 2021</a>
+              </h2>
+
+              <p class="text-gray-500 mb-8">This is a section of some simple filler text, also known as
+                placeholder
+                text.
+                It
+                shares some characteristics of a real written text.
+              </p>
+            </div>
+
+            <a href="#" class="text-indigo-500">Read more ></a>
+
+          </div>
+        </div>
+        <!-- article - end -->
+        <!-- article - start -->
+        <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
+          <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600"
+              loading="lazy" alt="Photo by Martin Sanchez"
+              class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+          </a>
+
+          <div class="flex flex-col flex-1 p-4 sm:p-6">
+            <div>
+              <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                <a href="#" class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">The best
+                  notebooks to help you works smarter in 2021</a>
+              </h2>
+
+              <p class="text-gray-500 mb-8">This is a section of some simple filler text, also known as
+                placeholder
+                text.
+                It
+                shares some characteristics of a real written text.
+              </p>
+            </div>
+
+            <a href="#" class="text-indigo-500">Read more ></a>
+
+          </div>
+        </div>
+        <!-- article - end -->
+        <!-- article - start -->
+        <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
+          <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600"
+              loading="lazy" alt="Photo by Martin Sanchez"
+              class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+          </a>
+
+          <div class="flex flex-col flex-1 p-4 sm:p-6">
+            <div>
+              <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                <a href="#" class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">The
+                  best
+                  notebooks to help you works smarter in 2021</a>
+              </h2>
+
+              <p class="text-gray-500 mb-8">This is a section of some simple filler text, also known
+                as
+                placeholder
+                text.
+                It
+                shares some characteristics of a real written text.
+              </p>
+            </div>
+
+            <a href="#" class="text-indigo-500">Read more ></a>
+
+          </div>
+        </div>
+        <!-- article - end -->
+        <!-- article - start -->
+        <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
+          <a href="#" class="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600"
+              loading="lazy" alt="Photo by Martin Sanchez"
+              class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
+          </a>
+
+          <div class="flex flex-col flex-1 p-4 sm:p-6">
+            <div>
+              <h2 class="text-gray-800 text-lg font-semibold mb-2">
+                <a href="#" class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">The
+                  best
+                  notebooks to help you works smarter in 2021</a>
+              </h2>
+
+              <p class="text-gray-500 mb-8">This is a section of some simple filler text, also
+                known as
+                placeholder
+                text.
+                It
+                shares some characteristics of a real written text.
+              </p>
+            </div>
+
+            <a href="#" class="text-indigo-500">Read more ></a>
+
+          </div>
+        </div>
+        <!-- article - end -->
 
       </div>
-
+      <div class="flex justify-center my-16 md:my-20">
+        <button class="btn btn-primary btn-sm">View more</button>
+      </div>
     </div>
   </div>
 
@@ -318,7 +530,7 @@
   <!-- CONTACT SECTION -->
 
   <div class="bg-white py-6 sm:py-8 md:py-20   bg-no-repeat bg-center bg-cover bg-origin-border relative"
-    style=" background-image: url(/public/images/Pattern\ Light.png);">
+    style=" background-image: url(/images/Pattern\ Light.png);">
     <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
       <!-- text - start -->
       <div class="flex flex-col lg:flex-row md:justify-between mb-10 md:mb-16">
@@ -706,7 +918,7 @@
 
   <!-- SCRIPTS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="/public/main.js"></script>
+  <script src="Js/main.js"></script>
 </body>
 
 </html>
