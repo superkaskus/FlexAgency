@@ -1,7 +1,11 @@
 const { indigo } = require("color-name");
 
 module.exports = {
-  content: ["./**/*.html","./src/**/*.{html,js}"],
+  content: [
+    "./**/*.html",
+     "./src/**/*.{html,js}",
+     "./index.html",
+    ],
   theme: {
     fontFamily: {
       sans: ["Poppins", "sans-serif"],
@@ -10,5 +14,8 @@ module.exports = {
 
     extend: {},
   },
-  plugins: [require("@tailwindcss/forms")],
+  plugins: [
+    require("@tailwindcss/forms"),
+   
+],
 };
