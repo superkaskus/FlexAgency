@@ -18,7 +18,7 @@
   <!-- Animate.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- Main style.css -->
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="singleBlog">
@@ -26,13 +26,14 @@
 
   <!-- HEADER SECTION -->
   <div class=" bg-no-repeat bg-center bg-cover bg-origin-border"
-    style=" background-image: url(./images/Pattern\ Light.png);">
+    style=" background-image: url(.images/Pattern\ Light.png);">
     <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
 
       <!-- Nav bar starts here -->
       <header class="flex justify-between items-center py-4">
         <!-- logo - start -->
-        <a href="/" class="#8067FF inline-flex items-center text-lg text-black-800 font-bold gap-2.5" aria-label="logo">
+        <a href="index.html" class="#8067FF inline-flex items-center text-lg text-black-800 font-bold gap-2.5"
+          aria-label="logo">
           <!-- <svg width="54" height="54" viewBox="0 0 95 94" class="w-6 h-auto text-indigo-500" fill="currentColor"
             xmlns="http://www.w3.org/2000/svg">
             <path d="M96 0V47L48 94H0V47L48 0H96Z" />
@@ -170,7 +171,7 @@
           <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
             <div class="px-5 pt-4 flex items-center justify-between">
               <div class="flex justify-between">
-                <img class="h-6 w-auto" src="/images/Logo Shapes 3.png" alt="">
+                <img class="h-6 w-auto" src="images/Logo Shapes 3.png" alt="">
                 <p class="text-gray-900 ml-2 font-bold text-lg">FlexAgency</p>
               </div>
               <div class="-mr-2 ">
@@ -230,7 +231,7 @@
         <div class="flex justify-between items-center w-full mb-4">
           <div class="flex items-center gap-2">
             <div class="w-10 h-10 shrink-0 bg-gray-100 rounded-full overflow-hidden">
-              <img src="/images/Profile-image.png" loading="lazy" alt="Photo by Brock Wegner"
+              <img src="images/Profile-image.png" loading="lazy" alt="Photo by Brock Wegner"
                 class="w-full h-full object-cover object-center" />
             </div>
 
@@ -302,7 +303,7 @@
 
       <!-- Featured image -->
       <div class="overflow-hidden rounded-xl w-full relative mb-6 md:mb-8">
-        <img src="/images/featured.png" loading="lazy" alt="Photo by Minh Pham"
+        <img src="images/featured.png" loading="lazy" alt="Photo by Minh Pham"
           class="w-full h-full md:h-[450px] object-cover object-center" />
       </div>
 
@@ -361,7 +362,7 @@
 
 
         <div class="bg-gray-100 overflow-hidden rounded-lg shadow-lg relative mb-6 md:mb-8">
-          <img src="/images/cafe.png" loading="lazy" alt="Photo by Minh Pham"
+          <img src="images/cafe.png" loading="lazy" alt="Photo by Minh Pham"
             class="w-full h-full object-cover object-center" />
         </div>
 
@@ -425,7 +426,7 @@
   <!-- CONTACT SECTION -->
 
   <div id="contact" class="bg-white py-6 sm:py-8 md:py-20   bg-no-repeat bg-center bg-cover bg-origin-border relative"
-    style=" background-image: url(/images/Pattern\ Light.png);">
+    style=" background-image: url(images/Pattern\ Light.png);">
     <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
       <!-- text - start -->
       <div class="flex flex-col lg:flex-row md:justify-between mb-10 md:mb-16">
@@ -559,7 +560,10 @@
             <span class="block text-sm font-medium mb-2 text-slate-700">Message</span>
 
             <textarea placeholder="Message" name="textArea" id="" cols="30" rows="7"
-              class="w-full flex-1 bg-gray-white text-gray-800 placeholder-gray-400 border border-gray-300 focus:ring ring-indigo-300 rounded-lg outline-none transition duration-100 px-3 py-2"></textarea>
+              class="w-full flex-1 bg-gray-white text-gray-800 placeholder-gray-400 border border-gray-300 focus:ring ring-indigo-300 rounded-lg outline-none transition duration-100 px-3 py-2">
+
+            </textarea>
+
           </label>
           <button class=" btn btn-primary btn-sm">Send</button>
         </form>
